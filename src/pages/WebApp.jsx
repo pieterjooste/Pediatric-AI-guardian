@@ -1,3 +1,4 @@
+import React, { useState } from 'react';
 import { ShieldAlert, AlertTriangle, CheckCircle, Info, ArrowLeft, Thermometer } from 'lucide-react';
 import SEO from '../components/SEO';
 import babyData from '../data/babyHealth.json';

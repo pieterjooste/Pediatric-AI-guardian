@@ -76,7 +76,7 @@ const AppsShowcase = () => {
               )}
               {app.android && (
                 <a href={app.android} target="_blank" rel="noreferrer" className="store-btn android">
-                  <Play size={20} /> Play Store
+                  <PlayIcon size={20} /> Play Store
                 </a>
               )}
             </div>
