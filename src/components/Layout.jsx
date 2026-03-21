@@ -81,7 +81,7 @@ const Layout = ({ children }) => {
           </div>
         </div>
         <div className="footer-bottom">
-          <p>&copy; {new Date().getFullYear()} ChildHealthForAll (Pty) Ltd. All rights reserved.</p>
+          <p>&copy; {new Date().getFullYear()} ChildHealthForAll (Pty) Ltd. All rights reserved. <span style={{opacity: 0.5, fontSize: '0.8rem'}}>(v1.0.1-fixed)</span></p>
         </div>
       </footer>
     </div>
