@@ -1,4 +1,6 @@
-import React, { useState } from 'react';
+import React from 'react';
+const { useState } = React;
+// Deployment force-refresh: 21:42
 import { ShieldAlert, AlertTriangle, CheckCircle, Info, ArrowLeft, Thermometer } from 'lucide-react';
 import SEO from '../components/SEO';
 import babyData from '../data/babyHealth.json';

@@ -1,3 +1,5 @@
+import React from 'react';
+// Deployment force-refresh: 21:42
 import { Apple, Play as PlayIcon } from 'lucide-react';
 import SEO from '../components/SEO';
 import './AppsShowcase.css';
