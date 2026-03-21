@@ -1,0 +1,46 @@
+.privacy-container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 4rem 2rem;
+}
+
+.privacy-card {
+  padding: 3rem;
+  line-height: 1.8;
+}
+
+.privacy-card h1 {
+  font-size: 2.5rem;
+  margin-bottom: 0.5rem;
+  background: linear-gradient(to right, #7dd3fc, #60a5fa);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.last-updated {
+  font-size: 0.9rem;
+  color: var(--text-muted);
+  margin-bottom: 3rem;
+  font-family: 'Outfit', sans-serif;
+}
+
+.policy-section {
+  margin-bottom: 2.5rem;
+}
+
+.policy-section h2 {
+  font-size: 1.5rem;
+  color: #7dd3fc;
+  margin-bottom: 1rem;
+}
+
+.policy-section p {
+  color: var(--text-secondary);
+}
+
+@media (max-width: 768px) {
+  .privacy-card {
+    padding: 2rem;
+  }
+}

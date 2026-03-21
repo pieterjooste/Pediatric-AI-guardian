@@ -1,0 +1,2329 @@
+[
+    {
+        "id": "emergency",
+        "name": "Emergency",
+        "sections": [
+          {
+            "id": "red",
+            "background": "red",
+            "content": [
+                {
+                  "id": 0,
+                  "content": "Obstructed or absent breathing",
+                  "type": "titletext"
+                },
+                {
+                  "id": 1,
+                  "content": "The aspiration of a foreign body may be the cause of obstructed or absent breathing.",
+                  "type": "text"
+                },
+                {
+                  "id": 2,
+                  "content": "Noisy breathing (stridor) and struggling to breath are also signs of an obstructed airway.",
+                  "type": "text"
+                },
+                {
+                  "id": 3,
+                  "content": "The Heimlich maneuver should be used to remove a foreign body from the airway.",
+                  "type": "text"
+                },
+                {
+                    "id": 4,
+                    "content": "Heimlich maneuver from CHOC",
+                    "type": "link",
+                    "linkUrl": "https://www.youtube.com/watch?v=aXaLc-AwX2g"
+                },
+                {
+                  "id": 5,
+                  "content": "Perform mouth to mouth breathing if there is no breathing and call for help.",
+                  "type": "text"
+                },
+                {
+                  "id": 6,
+                  "content": "If there is no heartbeat, start with chest compressions. (30 compressions: 2 breaths)\n",
+                  "type": "text"
+                },
+                {
+                    "id": 7,
+                    "content": "CPR and Choking Training Video",
+                    "type": "link",
+                    "linkUrl": "https://www.rch.org.au/cocoon/project/moving-on/Family_resuscitation_training_videos/"
+                },
+                {
+                  "id": 8,
+                  "content": "Video Credit: Royal Children's Hospital Melbourne",
+                  "type": "text"
+                },
+                {
+                  "id": 9,
+                  "content": "Severe respiratory distress",
+                  "type": "titletext"
+                },
+                {
+                  "id": 10,
+                  "content": "Fast breathing, chest indrawing, nasal flaring and a grunting noise on exhalation are signs of severe respiratory distress.",
+                  "type": "text"
+                },
+                {
+                  "id": 11,
+                  "content": "Oxygen and antibiotics for a lung infection are indicated.\n",
+                  "type": "text"
+                },
+                {
+                  "id": 12,
+                  "content": "Central cyanosis",
+                  "type": "titletext"
+                },
+                {
+                  "id": 13,
+                  "content": "Central cyanosis can be identified by blue lips and tongue and indicate a lack of oxygen.",
+                  "type": "text"
+                },
+                {
+                  "id": 14,
+                  "content": "If oxygen saturation is less than 90% in room air, extra oxygen is needed.\n",
+                  "type": "text"
+                },
+                {
+                  "id": 15,
+                  "content": "Signs of shock",
+                  "type": "titletext"
+                },
+                {
+                  "id": 16,
+                  "content": "Cold hands and a high heart rate with a weak pulse are signs of shock.",
+                  "type": "text"
+                },
+                {
+                  "id": 17,
+                  "content": "Severe dehydration, blood infection (septicaemia), significant blood loss and heart failure may cause shock and urgent treatment is needed.\n",
+                  "type": "text"
+                },
+                {
+                  "id": 18,
+                  "content": "Coma",
+                  "type": "titletext"
+                },
+                {
+                  "id": 19,
+                  "content": "If coma is caused by head trauma a neck injury is also possible. Stabilize the neck and keep the child lying on the back.",
+                  "type": "text"
+                },
+                {
+                  "id": 20,
+                  "content": "If neck trauma is not suspected, turn the child on the side to reduce the risk of aspiration.",
+                  "type": "text"
+                },
+                {
+                  "id": 21,
+                  "content": "Coma or a reduced level of consciousness may have many causes. A low blood sugar or convulsions should always be excluded.\n",
+                  "type": "text"
+                },
+                {
+                  "id": 22,
+                  "content": "Convulsions",
+                  "type": "titletext"
+                },
+                {
+                  "id": 23,
+                  "content": "Convulsions (seizures,epilepsy) can be identified by abnormal movements and a depressed level of consciousness.",
+                  "type": "text"
+                },
+                {
+                  "id": 24,
+                  "content": "Ensure the airway is open and turn the child on the side to prevent aspiration.",
+                  "type": "text"
+                },
+                {
+                  "id": 25,
+                  "content": "Urgent treatment is necessary to stop convulsions. A low blood glucose should also be excluded.\n",
+                  "type": "text"
+                },
+                {
+                  "id": 26,
+                  "content": "Signs of severe dehydration",
+                  "type": "titletext"
+                },
+                {
+                  "id": 27,
+                  "content": "Lethargy, sunken eyes and a very slow return after pinching the skin are signs of severe dehydration. It is usually caused by severe diarrhoea and vomiting.",
+                  "type": "text"
+                },
+                {
+                  "id": 28,
+                  "content": "Urgent fluid administration is necessary.",
+                  "type": "text"
+                }
+              ]
+            },
+          {
+            "id": "clear",
+            "background": "clear",
+            "content": [
+              {
+                "id": 0,
+                "content": "References: ",
+                "type": "titletext"
+              },
+              {
+                "id": 1,
+                "content": "World Health Organization. (2013). Pocket book of hospital care for children: Guidelines for the management of common childhood illnesses, 2nd ed.. Section 1.1 Triage; p 2-3. <https://apps.who.int/iris/handle/10665/81170>",
+                "type": "text"
+              }
+            ]
+          }
+        ]
+      },
+  {
+    "id": "birth defects",
+    "name": "Birth defects",
+    "sections": [
+      {
+        "id": "intro",
+        "background": "gray",
+        "content": [
+          {
+            "id": 0,
+            "content": "Babies are screened after birth and at 6 weeks for congenital abnormalities.\n",
+            "type": "text"
+          },
+          {
+            "id": 1,
+            "content": "The most common birth defects:\n",
+            "type": "titletext"
+          },
+          {
+            "id": 2,
+            "content": "Heart defects",
+            "type": "text"
+          },
+          {
+            "id": 3,
+            "content": "Hypospadia (opening of the urethra is not located at the tip of the penis)",
+            "type": "text"
+          },
+          {
+            "id": 4,
+            "content": "Club foot",
+            "type": "text"
+          },
+          {
+            "id": 5,
+            "content": "Down Syndrome",
+            "type": "text"
+          },
+          {
+            "id": 6,
+            "content": "Cleft lip and/or palate",
+            "type": "text"
+          },
+          {
+            "id": 7,
+            "content": "Fetal alcohol syndrome",
+            "type": "text"
+          },
+          {
+            "id": 8,
+            "content": "Neural tube defects or spina bifida",
+            "type": "text"
+          },
+          {
+            "id": 9,
+            "content": "Other limb defects",
+            "type": "text"
+          }
+        ]
+      },
+      {
+        "id": "orange",
+        "background": "orange",
+        "content": [
+          {
+            "id": 0,
+            "content": "Seek help if any of the following present: ",
+            "type": "titletext"
+          },
+          {
+            "id": 1,
+            "content": "You have a family history of a genetic abnormality.",
+            "type": "text"
+          },
+          {
+            "id": 2,
+            "content": "You already have a child with a congenital abnormality.",
+            "type": "text"
+          },
+          {
+            "id": 3,
+            "content": "Baby presents with a white pupil (cataract).",
+            "type": "text"
+          },
+          {
+            "id": 4,
+            "content": "Milk is coming through the nose during feeding (cleft palate).",
+            "type": "text"
+          },
+          {
+            "id": 5,
+            "content": "A click is felt in the hip during a nappy change (dislocatable hip).",
+            "type": "text"
+          },
+          {
+            "id": 6,
+            "content": "One leg is shorter, asymmetric buttocks or you can not move upper leg outwards. (dislocated hip).",
+            "type": "text"
+          },
+          {
+            "id": 7,
+            "content": "Undescended testis.",
+            "type": "text"
+          },
+          {
+            "id": 8,
+            "content": "The presence of any dysmorphic feature (malformation).",
+            "type": "text"
+          }
+        ]
+      },
+      {
+        "id": "red",
+        "background": "red",
+        "content": [
+          {
+            "id": 0,
+            "content": "Seek immediate help if: ",
+            "type": "titletext"
+          },
+          {
+            "id": 1,
+            "content": "no stools are passed in the first 48 hours after the birth.",
+            "type": "text"
+          },
+          {
+            "id": 2,
+            "content": "no femoral pulse is palpable in the groin.",
+            "type": "text"
+          },
+          {
+            "id": 3,
+            "content": "oxygen saturation on a foot is below 90%.",
+            "type": "text"
+          },
+          {
+            "id": 4,
+            "content": "ambiguous (doubtful) genitalia is present.",
+            "type": "text"
+          },
+          {
+            "id": 5,
+            "content": "no urine is passed in 24 hours after birth. A weak urine stream in a boy is also concerning.",
+            "type": "text"
+          }
+        ]
+      },
+      {
+        "id": "clear",
+        "background": "clear",
+        "content": [
+            {
+              "id": 0,
+              "content": "References: ",
+              "type": "titletext"
+            },
+            {
+                "id": 1,
+                "content": "1. World Health Organization. (‎2013)‎. Pocket book of hospital care for children: guidelines for the management of common childhood illnesses, 2nd ed.. Section 9.2 Congenital anomalies; p 264-268. <https://apps.who.int/iris/handle/10665/81170>" ,
+                "type": "text"
+            },
+            {
+                "id": 2,
+                "content": "2. CDC [Internet]. Atlanta Georgia:  National Center on Birth Defects and Developmental Disabilities, Centers for Disease Control and Prevention (US); What are Birth Defects?; reviewed 2023 Jun; cited 2023 Aug.  <https://www.cdc.gov/ncbddd/birthdefects/facts.html> " ,
+                "type": "text"
+            }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "brain",
+    "name": "Brain",
+    "sections": [
+      {
+        "id": "green",
+        "background": "green",
+        "content": [
+          {
+            "id": 0,
+            "content": "Normal head circumference at birth is 32 - 37 cm.",
+            "type": "text"
+          },
+          {
+            "id": 1,
+            "content": "Head circumference at 2 months is between 36 - 41 cm depending on circumference at birth.",
+            "type": "text"
+          }
+        ]
+      },
+      {
+        "id": "orange",
+        "background": "orange",
+        "content": [
+          {
+            "id": 0,
+            "content": "Seek help if: ",
+            "type": "titletext"
+          },
+          {
+            "id": 1,
+            "content": "head circumference growth is less than 1 cm per month in the first year of life.",
+            "type": "text"
+          },
+          {
+            "id": 2,
+            "content": "head circumference growth is more than 2 cm per month in the first year of life.",
+            "type": "text"
+          },
+          {
+            "id": 3,
+            "content": "anterior fontanel (soft spot) in scull is closed at birth or still open after 24 months.\n",
+            "type": "text"
+          },
+          {
+            "id": 4,
+            "content": "baby at 2 months:",
+            "type": "titletext"
+          },
+          {
+            "id": 5,
+            "content": "does not bring hands to mouth.",
+            "type": "text"
+          },
+          {
+            "id": 6,
+            "content": "does not respond to loud noises.",
+            "type": "text"
+          },
+          {
+            "id": 7,
+            "content": "does not track people and objects as they move.",
+            "type": "text"
+          },
+          {
+            "id": 8,
+            "content": "is unable to hold head up while lying on stomach.",
+            "type": "text"
+          }
+        ]
+      },
+      {
+        "id": "red",
+        "background": "red",
+        "content": [
+          {
+            "id": 0,
+            "content": "Seek immediate help if: ",
+            "type": "titletext"
+          },
+          {
+            "id": 1,
+            "content": "anterior fontanel bulges",
+            "type": "button",
+            "sheet": {
+                "title": "Bulging Fontanel",
+                "sheetContent": [
+                    {
+                        "id": 0,
+                        "content": "Fontanel",
+                        "type": "image"
+                    },
+                    {
+                        "id": 1,
+                        "content": "Image credit: Wikipedia",
+                        "type": "text"
+                    },
+                    {
+                        "id": 2,
+                        "content": "The fontanel is a normal opening between the skull bones in babies, that closes between 12-24 months.",
+                        "type": "text"
+                    },
+                    {
+                        "id": 3,
+                        "content": "A bulging fontanel indicates increased pressure and is an emergency. It can be caused by infection, swelling or fluid.",
+                        "type": "redtext"
+                    },
+                    {
+                        "id": 4,
+                        "content": "The normal pulsation of the fontanel also disappears with increased pressure.",
+                        "type": "text"
+                    }
+                ]
+            }
+          },
+          {
+            "id": 2,
+            "content": "seizures",
+            "type": "button",
+            "sheet": {
+                "title": "Seizures",
+                "sheetContent": [
+                    {
+                        "id": 0,
+                        "content": "Convulsions or seizures are an emergency and always need immediate medical help to determine the cause and receive appropriate treatment. Fever should not be regarded as the cause of the convulsions for babies under 6 months.",
+                        "type": "redtext"
+                    },
+                    {
+                        "id": 1,
+                        "content": "Normal movements in babies are usually not symmetric or repetitive, except for a Moro reflex.",
+                        "type": "text"
+                    },
+                    {
+                        "id": 2,
+                        "content": "Seizures may be short and subtle. Always try to take a video clip to show to the health care worker.",
+                        "type": "text"
+                    },
+                    {
+                        "id": 3,
+                        "content": "YouTube video link below to demonstrate seizures in a baby:",
+                        "type": "text"
+                    },
+                    {
+                        "id": 4,
+                        "content": "Video",
+                        "type": "link",
+                        "linkUrl": "https://youtu.be/Qg_CvKQVGd8"
+                    },
+                    {
+                        "id": 5,
+                        "content": "Types:",
+                        "type": "titletext"
+                    },
+                    {
+                        "id": 6,
+                        "content": "Random eye movements, eyes rolling, staring.\nSucking, smacking or chewing.\nBicycling or pedalling movement of one leg.\nLong pause in breathing (apnoea).",
+                        "type": "text"
+                    },
+                    {
+                        "id": 7,
+                        "content": "Clonic:\nRhythmic, jerking movements of face or limbs.",
+                        "type": "text"
+                    },
+                    {
+                        "id": 8,
+                        "content": "Tonic:\nStiffening of muscles.\nTurning head or eyes to one side.",
+                        "type": "text"
+                    },
+                    {
+                        "id": 9,
+                        "content": "Myoclonic:\n A quick, single jerking movement of limbs.\nIt is usually normal if the movement only occurs during sleep.",
+                        "type": "text"
+                    }
+                ]
+            }
+          },
+          {
+            "id": 3,
+            "content": "lethargic",
+            "type": "button",
+            "sheet": {
+                "title": "Lethargy",
+                "sheetContent": [
+                    {
+                        "id": 0,
+                        "content": "Lethargy is a change in the baby's condition and is characterized by\n* unresponsiveness.\n*excessive sleepiness, difficulty to wake up and refusing to feed.\n*staring and not making eye contact.\n*not smiling and a weak cry.",
+                        "type": "redtext"
+                    },
+                    {
+                        "id": 1,
+                        "content": "Integrated Management of Childhood Illness (IMCI) training video from WHO on YouTube to demonstrate lethargy:",
+                        "type": "text"
+                    },
+                    {
+                        "id": 2,
+                        "content": "Video",
+                        "type": "link",
+                        "linkUrl": "https://youtu.be/3Srhjp9k7fw"
+                    },
+                    {
+                        "id": 3,
+                        "content": "Babies no.2 and no.4 in the video are lethargic",
+                        "type": "text"
+                    },
+                    {
+                        "id": 4,
+                        "content": "Causes:",
+                        "type": "titletext"
+                    },
+                    {
+                        "id": 5,
+                        "content": "It can be caused by\n*dehydration.\n*severe infection.\n*low blood sugar.\n*a metabolic disease.",
+                        "type": "text"
+                    },
+                    {
+                        "id": 6,
+                        "content": "Lethargy is a medical emergency and the baby should be seen immediately for an assessment and emergency treatment.",
+                        "type": "redtext"
+                    }
+                ]
+            }
+          }
+        ]
+      },
+      {
+        "id": "clear",
+        "background": "clear",
+        "content": [
+            {
+              "id": 0,
+              "content": "References: ",
+              "type": "titletext"
+            },
+            {
+                "id": 1,
+                "content": "1. Mayo Clinic [Internet]. Infant and toddler health. How much should I expect my baby to grow in the first year? ; reviewed 2023 Jan; cited 2023 Aug. < https://www.mayoclinic.org/healthy-lifestyle/infant-and-toddler-health/expert-answers/infant-growth/faq-20058037#:~:text=Height.,(1.3%20centimeters)%20each%20month.>",
+                "type": "text"
+            },
+            {
+                "id": 2,
+                "content": "2. KidsHealth [Internet]. Nemours Children’s Health. Your Child’s Development: 2 Months; reviewed 2022 Apr; cited 2023 Aug. <https://kidshealth.org/en/parents/development-2mos.html>",
+                "type": "text"
+            },
+            {
+                "id": 3,
+                "content": "3. World Health Organization. (‎2013)‎. Pocket book of hospital care for children: guidelines for the management of common childhood illnesses, 2nd ed.. Section 3.6 Danger signs in newborns and young infants; p 52. <https://apps.who.int/iris/handle/10665/81170>",
+                "type": "text"
+            },
+            {
+                "id": 4,
+                "content": "4. World Health Organization. (‎2013)‎. Pocket book of hospital care for children: guidelines for the management of common childhood illnesses, 2nd ed.. Section 3.9 Meningitis; p 55-56. <https://apps.who.int/iris/handle/10665/81170>",
+                "type": "text"
+            },
+            {
+                "id": 5,
+                "content": "5. Cameron, P, Browne, G, Biswadev, M, Stuart, D & Simon, C 2019, Textbook of Paediatric Emergency Medicine Third Edition [E-book] Chapter 3.4 Acute neonatal emergencies, Chapter 10.1 Inborn errors of metabolism, Elsevier, cited 2023 Oct. Available from: <https://ia802909.us.archive.org/13/items/2-5326064462732461949/2_5326064462732461949.pdf>",
+                "type": "text"
+            }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "breathing",
+    "name": "Breathing",
+    "sections": [
+      {
+        "id": "green",
+        "background": "green",
+        "content": [
+          {
+            "id": 0,
+            "content": "Normal breathing rate of babies under 2 months is between 30 - 60 breaths/minute.",
+            "type": "text"
+          }
+        ]
+      },
+      {
+        "id": "red",
+        "background": "red",
+        "content": [
+          {
+            "id": 0,
+            "content": "Seek immediate help if: ",
+            "type": "titletext"
+          },
+          {
+            "id": 1,
+            "content": "lips and tongue turn blue (cyanosis).",
+            "type": "text"
+          },
+          {
+            "id": 2,
+            "content": "oxygen saturation is less than 90%.",
+            "type": "text"
+          },
+          {
+            "id": 3,
+            "content": "breathing rate is more than 60/minute",
+            "type": "text"
+          },
+          {
+            "id": 4,
+            "content": "not breathing",
+            "type": "button",
+            "sheet": {
+                "title": "Apnoea",
+                "sheetContent": [
+                    {
+                        "id": 0,
+                        "content": "No breathing for 20 seconds or turning blue while not breathing.",
+                        "type": "text"
+                    },
+                    {
+                        "id": 1,
+                        "content": "This is an emergency and needs immediate attention. If the baby does not respond to stimulation, mouth to mouth and nose breathing is necessary. Remove any obstruction from mouth or nose. If no heartbeat, do CPR.",
+                        "type": "redtext"
+                    },
+                    {
+                        "id": 2,
+                        "content": "There are many causes for apnoea and admission to a hospital will be necessary for tests, treatment and observation. Treatment will depend on the cause.",
+                        "type": "text"
+                    },
+                    {
+                        "id": 3,
+                        "content": "Resuscitation training video from The Royal Children's Hospital Melbourne:",
+                        "type": "text"
+                    },
+                    {
+                        "id": 4,
+                        "content": "CPR Training Video",
+                        "type": "link",
+                        "linkUrl": "https://www.rch.org.au/cocoon/project/moving-on/Family_resuscitation_training_videos/"
+                    }
+                ]
+            }
+          },
+          {
+            "id": 5,
+            "content": "chest indrawing",
+            "type": "button",
+            "sheet": {
+                "title": "Chest Indrawing",
+                "sheetContent": [
+                    {
+                        "id": 0,
+                        "content": "The chest is moving outwards with inspiration to allow the lungs to expand. If the lower end of the ribcage is moving inward with inspiration, it is a sign of significant lung pathology. Babies are nose breathers and blocked noses can also cause chest indrawing. If the indrawing persists after the nose is cleared, it indicates an ill lung.",
+                        "type": "redtext"
+                    },
+                    {
+                        "id": 1,
+                        "content": "Integrated Management of Childhood Illness (IMCI) training video below from WHO on YouTube to demonstrate chest indrawing: ",
+                        "type": "text"
+                    },
+                    {
+                        "id": 2,
+                        "content": "Video",
+                        "type": "link",
+                        "linkUrl": "https://youtu.be/mDw5gMXkc_I"
+                    },
+                    {
+                        "id": 3,
+                        "content": "The second baby in the video also demonstrates lethargy.",
+                        "type": "text"
+                    }
+                ]
+            }
+          },
+          {
+            "id": 6,
+            "content": "noisy breathing",
+            "type": "button",
+            "sheet": {
+                "title": "Noisy Breathing",
+                "sheetContent": [
+                    {
+                        "id": 0,
+                        "content": "Grunting:",
+                        "type": "titletext"
+                    },
+                    {
+                        "id": 1,
+                        "content": "A grunt at the end of expiration, accompanied by fast breathing, indicates a need for oxygen.",
+                        "type": "redtext"
+                    },
+                    {
+                        "id": 2,
+                        "content": "Video link to Nucleus Medical Media on YouTube below to demonstrate grunting:",
+                        "type": "text"
+                    },
+                    {
+                        "id": 3,
+                        "content": "Video",
+                        "type": "link",
+                        "linkUrl": "https://youtu.be/oX3CZnrLxbQ"
+                    },
+                    {
+                        "id": 4,
+                        "content": "Stridor:",
+                        "type": "titletext"
+                    },
+                    {
+                        "id": 5,
+                        "content": "Stridor is a noise during inspiration and if severe can be heard during in and expiration. Stridor indicates obstruction between the vocal cords and the large airways. In babies under 2 months and starting in the first week of life, the cause is usually congenital. An ear nose and throat specialist needs to determine the cause. Croup can also cause stridor, but is rare under 2 months.",
+                        "type": "redtext"
+                    },
+                    {
+                        "id": 6,
+                        "content": "Wheeze:",
+                        "type": "titletext"
+                    },
+                    {
+                        "id": 7,
+                        "content": "Wheeze is a noise produced in prolonged expiration only. It is very rarely heard in babies under 2 months. Bronchiolitis is the most common cause for wheezing in babies.",
+                        "type": "redtext"
+                    },
+                    {
+                        "id": 8,
+                        "content": "Snoring:",
+                        "type": "titletext"
+                    },
+                    {
+                        "id": 9,
+                        "content": "Snoring indicates obstruction in the nose. Severe obstruction can cause the breathing to stop (apnoea) during sleep.",
+                        "type": "redtext"
+                    },
+                    {
+                        "id": 10,
+                        "content": "Integrated Management of Childhood Illness (IMCI) training video from WHO on YouTube below to demonstrate noisy breathing:",
+                        "type": "text"
+                    },
+                    {
+                        "id": 11,
+                        "content": "Video",
+                        "type": "link",
+                        "linkUrl": "https://youtu.be/mL2PKn6lQ4Y"
+                    }
+                ]
+            }
+          }
+        ]
+      },
+      {
+        "id": "clear",
+        "background": "clear",
+        "content": [
+            {
+              "id": 0,
+              "content": "References: ",
+              "type": "titletext"
+            },
+            {
+                "id": 1,
+                "content": "1. World Health Organization. (‎2013)‎. Pocket book of hospital care for children: Guidelines for the management of common childhood illnesses, 2nd ed.. Section 3.6 Danger signs in newborns and young infants; p 52. <https://apps.who.int/iris/handle/10665/81170>" ,
+                "type": "text"
+            },
+            {
+                "id": 2,
+                "content": "2. World Health Organization. (‎2013)‎. Pocket book of hospital care for children: Guidelines for the management of common childhood illnesses, 2nd ed.. Section 4.1 Child presenting with cough; p 76-79. <https://apps.who.int/iris/handle/10665/81170>" ,
+                "type": "text"
+            },
+            {
+                "id": 3,
+                "content": "3. World Health Organization. (‎2013)‎. Pocket book of hospital care for children: Guidelines for the management of common childhood illnesses, 2nd ed.. Section 4.5 Conditions presenting with wheeze; p 91-96. <https://apps.who.int/iris/handle/10665/81170>" ,
+                "type": "text"
+            },
+            {
+                "id": 4,
+                "content": "4. World Health Organization. (‎2013)‎. Pocket book of hospital care for children: Guidelines for the management of common childhood illnesses, 2nd ed.. Section 4.7 Conditions presenting with chronic cough; p 109-120. <https://apps.who.int/iris/handle/10665/81170>" ,
+                "type": "text"
+            },
+            {
+                "id": 5,
+                "content": "5. Cameron, P, Browne, G, Biswadev, M, Stuart, D & Simon, C 2019, Textbook of Paediatric Emergency Medicine Third Edition [E-book] Chapter 3.4 Acute neonatal emergencies, Elsevier, cited 2023 Aug.  <https://ia802909.us.archive.org/13/items/2-5326064462732461949/2_5326064462732461949.pdf>" ,
+                "type": "text"
+            }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "crying",
+    "name": "Crying",
+    "sections": [
+      {
+        "id": "green",
+        "background": "green",
+        "content": [
+          {
+            "id": 0,
+            "content": "Normal babies cry up to 2 hours/day because they are hungry, uncomfortable or experiencing pain.",
+            "type": "text"
+          },
+          {
+            "id": 1,
+            "content": "YouTube video in link below demonstrates how to console a crying baby:",
+            "type": "text"
+          },
+          {
+            "id": 2,
+            "content": "Video",
+            "type": "link",
+            "linkUrl": "https://youtu.be/j2C8MkY7Co8"
+          }
+        ]
+      },
+      {
+        "id": "orange",
+        "background": "orange",
+        "content": [
+          {
+            "id": 0,
+            "content": "Excessive crying or colic:",
+            "type": "titletext"
+          },
+          {
+            "id": 1,
+            "content": "Crying for no reason for more than 3 hours/day and occurs more than 3 days/week in a healthy thriving infant under 3 months of age.",
+            "type": "text"
+          },
+          {
+            "id": 2,
+            "content": "The cause is unknown. There are many theories and there could even be more than one contributing factor.",
+            "type": "text"
+          },
+          {
+            "id": 3,
+            "content": "Excessive crying can be a risk factor for postnatal depression in the mother, early cessation of breastfeeding and non accidental injury.",
+            "type": "text"
+          },
+          {
+            "id": 4,
+            "content": "Seek help to exclude a cause for the crying and to find support.",
+            "type": "text"
+          }
+        ]
+      },
+      {
+        "id": "red",
+        "background": "red",
+        "content": [
+          {
+            "id": 0,
+            "content": "Seek immediate help if: ",
+            "type": "titletext"
+          },
+          {
+            "id": 1,
+            "content": "sudden, persistent inconsolable crying occurs.",
+            "type": "text"
+          }
+        ]
+      },
+      {
+        "id": "clear",
+        "background": "clear",
+        "content": [
+            {
+              "id": 0,
+              "content": "References: ",
+              "type": "titletext"
+            },
+            {
+                "id": 1,
+                "content": "1. MedlinePlus [Internet]. Bethesda (MD): National Library of Medicine (US); Colic and crying; reviewed 2021 Aug; cited 2023 Aug. <https://medlineplus.gov/ency/patientinstructions/000753.htm>" ,
+                "type": "text"
+            },
+            {
+                "id": 2,
+                "content": "2. Cameron, P, Browne, G, Biswadev, M, Stuart, D & Simon, C 2019, Textbook of Paediatric Emergency Medicine Third Edition [E-book]Chapter 3.2 The crying infant, Elsevier, cited 2023 Aug.  <https://ia802909.us.archive.org/13/items/2-5326064462732461949/2_5326064462732461949.pdf>" ,
+                "type": "text"
+            }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "development",
+    "name": "Development",
+    "sections": [
+      {
+        "id": "intro",
+        "background": "green",
+        "content": [
+          {
+            "id": 0,
+            "content": "CDC’s Milestone Tracker App:",
+            "type": "titletext"
+          },
+          {
+            "id": 1,
+            "content": "Track your child’s milestones from the age of 2 months to 5 years with the CDC’s easy-to-use illustrated checklists. Get tips from the CDC (Centre of Disease Control) on how to encourage your child’s development and find out what to do if you are ever concerned about how your child is developing.",
+            "type": "text"
+          },
+          {
+            "id": 2,
+            "content": "From birth to age 5, your child should reach milestones in how he or she plays, learns, speaks, acts, and moves. Photos and videos in this app illustrate each milestone.",
+            "type": "text"
+          },
+          {
+            "id": 3,
+            "content": "CDC Milestone Tracker App",
+            "type": "link",
+            "linkUrl": "https://www.cdc.gov/ncbddd/actearly/milestones-app.html"
+          }
+        ]
+      },
+      {
+        "id": "orange",
+        "background": "orange",
+        "content": [
+          {
+            "id": 0,
+            "content": "Seek help if: ",
+            "type": "titletext"
+          },
+          {
+            "id": 1,
+            "content": "any delay in milestones.",
+            "type": "text"
+          }
+        ]
+      }
+    ]
+  },
+  {
+      "id": "eyes",
+      "name": "Eyes",
+      "sections": [
+        {
+          "id": "green",
+          "background": "green",
+          "content": [
+            {
+              "id": 0,
+              "content": "Normal eyes in a baby are symmetrical in size and movement, shiny, not red and with no discharge.",
+              "type": "text"
+            },
+            {
+              "id": 1,
+              "content": "A red spot on the white of the eye (sclera) after birth is a bleed caused by birth trauma. It usually resolves within two weeks and does not enlarge.",
+              "type": "text"
+            }
+          ]
+        },
+        {
+          "id": "orange",
+          "background": "orange",
+          "content": [
+            {
+              "id": 0,
+              "content": "Seek help if: ",
+              "type": "titletext"
+            },
+            {
+              "id": 1,
+              "content": "eyes are red.",
+              "type": "text"
+            },
+            {
+              "id": 2,
+              "content": "eyes are asymmetrical in size and movement.",
+              "type": "text"
+            },
+            {
+              "id": 3,
+              "content": "eyes are moving with jerking movements (nystagmus).",
+              "type": "text"
+            },
+            {
+              "id": 4,
+              "content": "eyelid covers the pupil (ptosis) when the baby is awake.",
+              "type": "text"
+            },
+            {
+              "id": 5,
+              "content": "a persistent squint (strabismus) is present. An intermittent squint can be normal in the first four months.",
+              "type": "text"
+            },
+            {
+              "id": 6,
+              "content": "baby does not track people and objects as they move.",
+              "type": "text"
+            }
+          ]
+        },
+        {
+          "id": "red",
+          "background": "red",
+          "content": [
+            {
+              "id": 0,
+              "content": "Seek immediate help if the following present: ",
+              "type": "titletext"
+            },
+            {
+              "id": 1,
+              "content": "pussy discharge",
+              "type": "button",
+              "sheet": {
+                  "title": "Conjunctivitis",
+                  "sheetContent": [
+                      {
+                          "id": 0,
+                          "content": "Conjunctivitis",
+                          "type": "image"
+                      },
+                      {
+                          "id": 1,
+                          "content": "Image credit: Wikipedia",
+                          "type": "text"
+                      },
+                      {
+                          "id": 2,
+                          "content": "Red eyes, swollen eyelids and pussy discharge caused by infection. Removing the discharge and treatment will be necessary.",
+                          "type": "text"
+                      }
+                  ]
+              }
+            },
+            {
+              "id": 2,
+              "content": "white pupils",
+              "type": "button",
+              "sheet": {
+                "title": "White pupils",
+                "sheetContent": [
+                  {
+                    "id": 0,
+                    "content": "Cataracts",
+                    "type": "image"
+                  },
+                  {
+                    "id": 1,
+                    "content": "White pupils with absent red reflexes caused by cataracts.",
+                    "type": "text"
+                  },
+                  {
+                    "id": 2,
+                    "content": "Red reflex",
+                    "type": "image"
+                  },
+                  {
+                    "id": 3,
+                    "content": "Red reflexes can normally be seen on photos especially if a flash light was used.",
+                    "type": "text"
+                  },
+                  {
+                    "id": 4,
+                    "content": "Absent red reflex",
+                    "type": "image"
+                  },
+                  {
+                    "id": 5,
+                    "content": "Absent red reflex in the left eye. Referral to an ophthalmologist will be necessary to determine the cause.",
+                    "type": "text"
+                  },
+                  {
+                    "id": 6,
+                    "content": "Credit for images: Wikipedia",
+                    "type": "text"
+                  }
+                ]
+              }
+            },
+            {
+              "id": 3,
+              "content": "hazy enlarged eye",
+              "type": "button",
+              "sheet": {
+                  "title": "Glaucoma",
+                  "sheetContent": [
+                      {
+                          "id": 0,
+                          "content": "Glaucoma",
+                          "type": "image"
+                      },
+                      {
+                          "id": 1,
+                          "content": "Image credit: Wikipedia",
+                          "type": "text"
+                      },
+                      {
+                          "id": 2,
+                          "content": "Hazy and enlarged eye caused by increased pressure in the eye. Urgent treatment is necessary.",
+                          "type": "text"
+                      }
+                  ]
+              }
+            },
+            {
+              "id": 4,
+              "content": "sunset eyes",
+              "type": "button",
+              "sheet": {
+                  "title": "Hydrocephallus",
+                  "sheetContent": [
+                      {
+                          "id": 0,
+                          "content": "Sunset Eyes",
+                          "type": "image"
+                      },
+                      {
+                          "id": 1,
+                          "content": "Image credit: Wikipedia",
+                          "type": "text"
+                      },
+                      {
+                          "id": 2,
+                          "content": "Sunset eyes can be a sign of increased fluid in the brain. The head is larger than normal and anterior fontanel may be bulging.",
+                          "type": "text"
+                      }
+                  ]
+              }
+            },
+            {
+              "id": 5,
+              "content": "a single red eye.",
+              "type": "text"
+            }
+          ]
+        },
+      {
+        "id": "clear",
+        "background": "clear",
+        "content": [
+            {
+              "id": 0,
+              "content": "References: ",
+              "type": "titletext"
+            },
+            {
+                "id": 1,
+                "content": "1. World Health Organization. (‎2013)‎. Pocket book of hospital care for children: Guidelines for the management of common childhood illnesses, 2nd ed.. Section 3.12.2 Conjunctivitis; p 66-67. <https://apps.who.int/iris/handle/10665/81170>" ,
+                "type": "text"
+            },
+            {
+                "id": 2,
+                "content": "2. Cameron, P, Browne, G, Biswadev, M, Stuart, D & Simon, C 2019, Textbook of Paediatric Emergency Medicine Third Edition [E-book] Chapter 13.1 Ophthalmological emergencies, Chapter 13.2 Congenital, developmental and neoplastic conditions of the eye, Elsevier, cited 2023 Aug.  <https://ia802909.us.archive.org/13/items/2-5326064462732461949/2_5326064462732461949.pdf>" ,
+                "type": "text"
+            }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "fever",
+    "name": "Fever",
+    "sections": [
+      {
+        "id": "green",
+        "background": "green",
+        "content": [
+          {
+            "id": 0,
+            "content": "Normal temperature is between 36.5 - 37.5°C.",
+            "type": "text"
+          },
+          {
+            "id": 1,
+            "content": "Rectal temperature is the most accurate.",
+            "type": "text"
+          },
+          {
+            "id": 2,
+            "content": "An infrared thermal scanner is less accurate, but can be used as an alternative.",
+            "type": "text"
+          },
+          {
+            "id": 3,
+            "content": "Other methods for measuring temperature are not recommended in babies under 2 months.",
+            "type": "text"
+          }
+        ]
+      },
+      {
+        "id": "red",
+        "background": "red",
+        "content": [
+          {
+            "id": 0,
+            "content": "Seek immediate help if: ",
+            "type": "titletext"
+          },
+          {
+            "id": 1,
+            "content": "temperature is more than 38°C.",
+            "type": "text"
+          },
+          {
+            "id": 2,
+            "content": "temperature is less than 35.5°C and not responding to warming.",
+            "type": "text"
+          },
+          {
+            "id": 3,
+            "content": "fever is ascociated with lethargy or poor feeding.",
+            "type": "text"
+          },
+          {
+            "id": 4,
+            "content": "Wait with fever medication until baby has been seen by a health worker.",
+            "type": "text"
+          }
+        ]
+      },
+      {
+        "id": "clear",
+        "background": "clear",
+        "content": [
+            {
+              "id": 0,
+              "content": "References: ",
+              "type": "titletext"
+            },
+            {
+                "id": 1,
+                "content": "1. World Health Organization. (‎2013)‎. Pocket book of hospital care for children: Guidelines for the management of common childhood illnesses, 2nd ed.. Section 3.6 Danger signs in newborns and young infants; p 52. <https://apps.who.int/iris/handle/10665/81170>" ,
+                "type": "text"
+            },
+            {
+                "id": 2,
+                "content": "2. World Health Organization. (‎2013)‎. Pocket book of hospital care for children: Guidelines for the management of common childhood illnesses, 2nd ed.. Section 3.10.4 High fever; p 58. <https://apps.who.int/iris/handle/10665/81170>" ,
+                "type": "text"
+            },
+            {
+                "id": 3,
+                "content": "3. World Health Organization. (‎2013)‎. Pocket book of hospital care for children: Guidelines for the management of common childhood illnesses, 2nd ed.. Section 6.1 Child presenting with fever; p 150-156. <https://apps.who.int/iris/handle/10665/81170>" ,
+                "type": "text"
+            }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "growth",
+    "name": "Growth",
+    "sections": [
+      {
+        "id": "green",
+        "background": "green",
+        "content": [
+          {
+            "id": 0,
+            "content": "Normal birth weight is between 2.5 - 4.4 kg.",
+            "type": "text"
+          },
+          {
+            "id": 1,
+            "content": "At 2 months the weight should be 4 - 7 kg depending on the birth weight.",
+            "type": "text"
+          },
+          {
+            "id": 2,
+            "content": "Normal length at birth is between 46 - 54 cm.",
+            "type": "text"
+          },
+          {
+            "id": 3,
+            "content": "The length at 2 months should be 48 - 56 cm depending on the length at birth.",
+            "type": "text"
+          },
+          {
+            "id": 4,
+            "content": "Babies can lose up to 10% of birth weight during the first week of life.",
+            "type": "text"
+          },
+          {
+            "id": 5,
+            "content": "The use of growth charts are strongly recommended for all babies and children.",
+            "type": "text"
+          }
+        ]
+      },
+      {
+        "id": "orange",
+        "background": "orange",
+        "content": [
+          {
+            "id": 0,
+            "content": "Seek help if: ",
+            "type": "titletext"
+          },
+          {
+            "id": 1,
+            "content": "baby does not regain birth weight by day 10 of life.",
+            "type": "text"
+          },
+          {
+            "id": 2,
+            "content": "persistent weight loss occurs.",
+            "type": "text"
+          },
+          {
+            "id": 3,
+            "content": "weight gain is less than 20 gram/day.",
+            "type": "text"
+          },
+          {
+            "id": 4,
+            "content": "growth is less than 1.5 cm/month.",
+            "type": "text"
+          }
+        ]
+      },
+      {
+        "id": "red",
+        "background": "red",
+        "content": [
+          {
+            "id": 0,
+            "content": "Seek immediate help if: ",
+            "type": "titletext"
+          },
+          {
+            "id": 1,
+            "content": "baby loses more than 10% of birth weight in the first 7 days after birth.",
+            "type": "text"
+          }
+        ]
+      },
+      {
+        "id": "clear",
+        "background": "clear",
+        "content": [
+            {
+              "id": 0,
+              "content": "References: ",
+              "type": "titletext"
+            },
+            {
+                "id": 1,
+                "content": "1. KidsHealth [Internet]. Nemours Children’s Health. Growth Charts; reviewed 2019 Aug; cited 2023 Oct. <https://kidshealth.org/en/parents/growth-charts.html>" ,
+                "type": "text"
+            },
+            {
+                "id": 2,
+                "content": "2. World Health Organization. (‎2013)‎. Pocket book of hospital care for children: Guidelines for the management of common childhood illnesses, 2nd ed..  Annex 5 Assessing nutritional status; p 379-391. <https://apps.who.int/iris/handle/10665/81170>" ,
+                "type": "text"
+            },
+            {
+                "id": 3,
+                "content": "3. Mayo Clinic [Internet]. Infant and toddler health. How much should I expect my baby to grow in the first year? ; reviewed 2023 Jan; cited 2023 Aug. < https://www.mayoclinic.org/healthy-lifestyle/infant-and-toddler-health/expert-answers/infant-growth/faq-20058037#:~:text=Height.,(1.3%20centimeters)%20each%20month.>" ,
+                "type": "text"
+            }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "gut",
+    "name": "Gut",
+    "sections": [
+      {
+        "id": "green",
+        "background": "green",
+        "content": [
+          {
+            "id": 0,
+            "content": "Newborn babies pass meconium (black, tarry stool) in the first 24 hours after birth.",
+            "type": "text"
+          },
+          {
+            "id": 1,
+            "content": "Babies under 2 months feed 6-12 times/day.",
+            "type": "text"
+          },
+          {
+            "id": 2,
+            "content": "Exclusive breastfeeding for the first 6 months is recommended.",
+            "type": "text"
+          },
+          {
+            "id": 3,
+            "content": "Breastfeeding babies' stools can be between once a week and up to 8 times/day.",
+            "type": "text"
+          },
+          {
+            "id": 4,
+            "content": "Exclusive breastfed babies' stools can be loose and even watery. Frequent wet nappies will indicate adequate hydration.",
+            "type": "text"
+          },
+          {
+            "id": 5,
+            "content": "Colour of stools can be green or yellow.",
+            "type": "text"
+          }
+        ]
+      },
+      {
+        "id": "orange",
+        "background": "orange",
+        "content": [
+          {
+            "id": 0,
+            "content": "Seek help if: ",
+            "type": "titletext"
+          },
+          {
+            "id": 1,
+            "content": "white patches (thrush) are present in the mouth.",
+            "type": "text"
+          },
+          {
+            "id": 2,
+            "content": "baby is struggling with sucking from the breast or bottle.",
+            "type": "text"
+          },
+          {
+            "id": 3,
+            "content": "milk is coming through the nose during feeding.",
+            "type": "text"
+          },
+          {
+            "id": 4,
+            "content": "vomiting causes weight loss or failure to thrive.",
+            "type": "text"
+          },
+          {
+            "id": 5,
+            "content": "infrequent passing of small, hard stools are observed.",
+            "type": "text"
+          },
+          {
+            "id": 6,
+            "content": "constipation",
+            "type": "button",
+            "sheet": {
+                "title": "Constipation",
+                "sheetContent": [
+                    {
+                        "id": 0,
+                        "content": "Stools",
+                        "type": "image"
+                    },
+                    {
+                        "id": 1,
+                        "content": "Image credit: University of Bristol",
+                        "type": "text"
+                    },
+                    {
+                        "id": 2,
+                        "content": "Type 1 - Severe constipation\n Seperate hard lumps, like nuts and difficult to pass.",
+                        "type": "redtext"
+                    },
+                    {
+                        "id": 3,
+                        "content": "Type 2 - Mild constipation.\n Sausage-shaped and lumpy and difficult to pass.",
+                        "type": "redtext"
+                    },
+                    {
+                        "id": 4,
+                        "content": "Type 3 - 4 Normal stools. No difficulty to pass.",
+                        "type": "text"
+                    },
+                    {
+                        "id": 5,
+                        "content": "Only type 1 and 2 need treatment. If the baby is passing normal stools once a week no treatment is necessary.",
+                        "type": "text"
+                    }
+                ]
+            }
+          }
+        ]
+      },
+      {
+        "id": "red",
+        "background": "red",
+        "content": [
+          {
+            "id": 0,
+            "content": "Seek immediate help if: ",
+            "type": "titletext"
+          },
+          {
+            "id": 1,
+            "content": "no meconium passed in the first 48 hours after birth.",
+            "type": "text"
+          },
+          {
+            "id": 2,
+            "content": "yellow or green vomiting is seen.",
+            "type": "text"
+          },
+          {
+            "id": 3,
+            "content": "projectile vomiting occurs.",
+            "type": "text"
+          },
+          {
+            "id": 4,
+            "content": "blood in the stools is observed.",
+            "type": "text"
+          },
+          {
+            "id": 5,
+            "content": "more than 3 big watery stools/day occur.",
+            "type": "text"
+          },
+          {
+            "id": 6,
+            "content": "sunken eyes are seen, which indicate dehydration.",
+            "type": "text"
+          },
+          {
+            "id": 7,
+            "content": "the baby is losing weight.",
+            "type": "text"
+          },
+          {
+            "id": 8,
+            "content": "if stools are persistently white or light gray.",
+            "type": "text"
+          }
+        ]
+      },
+      {
+        "id": "clear",
+        "background": "clear",
+        "content": [
+            {
+              "id": 0,
+              "content": "References: ",
+              "type": "titletext"
+            },
+            {
+                "id": 1,
+                "content": "1. World Health Organization. (‎2013)‎. Pocket book of hospital care for children: Guidelines for the management of common childhood illnesses, 2nd ed.. Section 5.2 Acute diarrhoea; p 127-137. <https://apps.who.int/iris/handle/10665/81170>" ,
+                "type": "text"
+            },
+            {
+                "id": 2,
+                "content": "2. Cameron, P, Browne, G, Biswadev, M, Stuart, D & Simon, C 2019, Textbook of Paediatric Emergency Medicine Third Edition [E-book] Chapter 3.4 Acute neonatal emergencies, Chapter 7.2 Vomiting, Chapter 7.3 Gastrointestinal bleeding, Chapter 7.4 Gastro-oesophageal reflux, Chapter 7.13 Constipation, Elsevier, cited 2023 Aug.  <https://ia802909.us.archive.org/13/items/2-5326064462732461949/2_5326064462732461949.pdf>" ,
+                "type": "text"
+            }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "heart",
+    "name": "Heart",
+    "sections": [
+      {
+        "id": "green",
+        "background": "green",
+        "content": [
+          {
+            "id": 0,
+            "content": "Normal pulse of a baby is between 100 - 160/min.",
+            "type": "text"
+          },
+          {
+            "id": 1,
+            "content": "All newborns should have an oxygen saturation screen done on the baby's foot with a pulse oximeter 24 hours or more after birth. A measurement above 94% is regarded as normal.",
+            "type": "text"
+          }
+        ]
+      },
+      {
+        "id": "red",
+        "background": "red",
+        "content": [
+          {
+            "id": 0,
+            "content": "Seek immediate help if: ",
+            "type": "titletext"
+          },
+          {
+            "id": 1,
+            "content": "no heartbeat (Do CPR and call emergency).",
+            "type": "text"
+          },
+          {
+              "id": 2,
+              "content": "CPR Training Video from RCH",
+              "type": "link",
+              "linkUrl": "https://www.rch.org.au/cocoon/project/moving-on/Family_resuscitation_training_videos/"
+          },
+          {
+            "id": 3,
+            "content": "lips and tongue are turning blue (cyanosis).",
+            "type": "text"
+          },
+          {
+            "id": 4,
+            "content": "oxygen saturation screen on the baby's foot is below 90%.",
+            "type": "text"
+          },
+          {
+            "id": 5,
+            "content": "pulse is persistently more than 160/min.",
+            "type": "text"
+          },
+          {
+            "id": 6,
+            "content": "pulse is persistently less than 80/min.",
+            "type": "text"
+          },
+          {
+            "id": 7,
+            "content": "no femoral pulses are palpable in the groin.",
+            "type": "text"
+          },
+          {
+            "id": 8,
+            "content": "breathing is more than 60 breaths/min.",
+            "type": "text"
+          }
+        ]
+      },
+      {
+        "id": "clear",
+        "background": "clear",
+        "content": [
+            {
+              "id": 0,
+              "content": "References: ",
+              "type": "titletext"
+            },
+            {
+                "id": 1,
+                "content": "1. World Health Organization. (‎2013)‎. Pocket book of hospital care for children: Guidelines for the management of common childhood illnesses, 2nd ed.. World Health Organization. Section 4.8 Heart failure; p 120-121. <https://apps.who.int/iris/handle/10665/81170>" ,
+                "type": "text"
+            },
+            {
+                "id": 2,
+                "content": "2. Cameron, P, Browne, G, Biswadev, M, Stuart, D & Simon, C 2019, Textbook of Paediatric Emergency Medicine Third Edition [E-book] Chapter 3.4 Acute neonatal emergencies, 5.4 Cyanotic heart disease and tetralogy of Fallot spells, 5.6 Congenital heart disease, Elsevier, cited 2023 Aug. <https://ia802909.us.archive.org/13/items/2-5326064462732461949/2_5326064462732461949.pdf>" ,
+                "type": "text"
+            }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "jaundice",
+    "name": "Jaundice",
+    "sections": [
+      {
+        "id": "intro",
+        "background": "gray",
+        "content": [
+          {
+            "id": 0,
+            "content": "Jaundice (yellow skin and eyes) is caused by bilirubin and is very common in the first 2 weeks of life.",
+            "type": "text"
+          },
+          {
+            "id": 1,
+            "content": "Bilirubin is a product of hemoglobin metabolism in the liver and is excreted in the gut, causing the green, yellow or brown color of the stool.",
+            "type": "text"
+          },
+          {
+            "id": 2,
+            "content": "It becomes visible in the face/eyes first and is already visible at low levels. (50 micromol/L or 3 mg/dl)",
+            "type": "text"
+          },
+          {
+            "id": 3,
+            "content": "Mothers with the blood groups Rh negative and O are at risk to have babies with high bilirubin levels.",
+            "type": "text"
+          },
+          {
+            "id": 4,
+            "content": "All babies are screened at discharge for jaundice. If a baby becomes jaundiced at home a visit to a health worker will be necessary to determine the bilirubin level. It may be repeated to check if the level is going up or down.",
+            "type": "text"
+          },
+          {
+            "id": 5,
+            "content": "Phototherapy and blood exchange transfusions are used for high and very high bilirubin levels.",
+            "type": "text"
+          }
+        ]
+      },
+      {
+        "id": "green",
+        "background": "green",
+        "content": [
+          {
+            "id": 0,
+            "content": "Benign hyperbilirubinaemia or physiological jaundice is normal:",
+            "type": "text"
+          },
+          {
+            "id": 1,
+            "content": "It starts after 48 hours of life.",
+            "type": "text"
+          },
+          {
+            "id": 2,
+            "content": "and disappears before 14 days of life.",
+            "type": "text"
+          },
+          {
+            "id": 3,
+            "content": "Levels are low. (below 240 microgram/L or 14 mg/dl)",
+            "type": "text"
+          }
+        ]
+      },
+      {
+        "id": "orange",
+        "background": "orange",
+        "content": [
+            {
+              "id": 0,
+              "content": "Seek help if: ",
+              "type": "titletext"
+            },
+            {
+            "id": 1,
+            "content": "jaundice persists for more than 14 days." ,
+            "type": "text"
+            }
+        ]
+      },
+      {
+        "id": "red",
+        "background": "red",
+        "content": [
+          {
+            "id": 0,
+            "content": "Seek immediate help if: ",
+            "type": "titletext"
+          },
+          {
+            "id": 1,
+            "content": "jaundice is visible in the first 48 hours of life.",
+            "type": "text"
+          },
+          {
+            "id": 2,
+            "content": "jaundice starts after 7 days of life.",
+            "type": "text"
+          },
+          {
+            "id": 3,
+            "content": "palms of hands are yellow.",
+            "type": "text"
+          },
+          {
+            "id": 4,
+            "content": "excessive sleepiness and poor feeding with jaundice are observed.",
+            "type": "text"
+          },
+          {
+            "id": 5,
+            "content": "high pitch cry with jaundice.",
+            "type": "text"
+          },
+          {
+            "id": 6,
+            "content": "white or light gray stools are seen. It indicates an obstruction of bile flow from the liver to the gut.",
+            "type": "text"
+          }
+        ]
+      },
+      {
+        "id": "clear",
+        "background": "clear",
+        "content": [
+            {
+              "id": 0,
+              "content": "References: ",
+              "type": "titletext"
+            },
+            {
+                "id": 1,
+                "content": "1. KidsHealth [Internet]. Nemours Children’s Health. Jaundice in Newborns; reviewed 2023 Apr; cited 2023 Aug. <https://kidshealth.org/en/parents/jaundice.html>." ,
+                "type": "text"
+            },
+            {
+                "id": 2,
+                "content": "2. NICE [Internet]. National Institute for Health and Care Excellence; Jaundice in newborn babies under 28 days; 2010 May; updated 2016 Oct; reviewed 2023 Apr; cited 2023 Aug. Available from: <https://www.nice.org.uk/guidance/cg98>." ,
+                "type": "text"
+            }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "movement",
+    "name": "Movement",
+    "sections": [
+      {
+        "id": "green",
+        "background": "green",
+        "content": [
+          {
+            "id": 0,
+            "content": "Babies should be able to move all 4 limbs independently with equal and normal strength and range of movement.",
+            "type": "text"
+          }
+        ]
+      },
+      {
+        "id": "orange",
+        "background": "orange",
+        "content": [
+            {
+              "id": 0,
+              "content": "Seek help if: ",
+              "type": "titletext"
+            },
+            {
+              "id": 1,
+              "content": "there is increased resistance to bending an arm at the elbow or a leg at the knee (spasticity).",
+              "type": "text"
+            }
+        ]
+      },
+      {
+        "id": "red",
+        "background": "red",
+        "content": [
+          {
+            "id": 0,
+            "content": "Seek immediate help if: ",
+            "type": "titletext"
+          },
+          {
+            "id": 1,
+            "content": "floppy/weak",
+            "type": "button",
+            "sheet": {
+                "title": "Floppy/weak",
+                "sheetContent": [
+                    {
+                        "id": 0,
+                        "content": "It is also known as hypotonia with many different causes originating from the brain, nerves or the muscles.",
+                        "type": "text"
+                    },
+                    {
+                        "id": 1,
+                        "content": "At 2 months babies should be able to lift their heads if lying on their stomachs and there should be head control when kept in a sitting position. Babies should be able to lift their limbs from a surface when lying on their backs.",
+                        "type": "redtext"
+                    },
+                    {
+                        "id": 2,
+                        "content": "Video link to CureSMA on YouTube below demonstrating a floppy baby with weakness and hypotonia:",
+                        "type": "text"
+                    },
+                    {
+                        "id": 3,
+                        "content": "Video",
+                        "type": "link",
+                        "linkUrl": "https://youtu.be/pZHhAcSrFIY"
+                    },
+                    {
+                        "id": 4,
+                        "content": "A health worker should confirm the signs and symptoms and a referral to a specialist may be necessary to determine the cause.",
+                        "type": "redtext"
+                    }
+                ]
+            }
+          },
+          {
+            "id": 2,
+            "content": "the baby is not moving a limb/s or is moving a limb less than the other limbs.",
+            "type": "text"
+          }
+        ]
+      },
+      {
+        "id": "clear",
+        "background": "clear",
+        "content": [
+            {
+              "id": 0,
+              "content": "References: ",
+              "type": "titletext"
+            },
+            {
+                "id": 1,
+                "content": "1. Cameron, P, Browne, G, Biswadev, M, Stuart, D & Simon, C 2019, Textbook of Paediatric Emergency Medicine Third Edition [E-book]Chapter 8.4 Acute weakness, Elsevier, cited 2023 Aug.  <https://ia802909.us.archive.org/13/items/2-5326064462732461949/2_5326064462732461949.pdf>",
+                "type": "text"
+            },
+            {
+                "id": 2,
+                "content": "2. Cleveland Clinic [Internet]. Cerebral Palsy; reviewed 2020 Dec; cited 2023 Aug. <https://my.clevelandclinic.org/health/diseases/8717-cerebral-palsy>",
+                "type": "text"
+            }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "skin",
+    "name": "Skin",
+    "sections": [
+      {
+        "id": "intro",
+        "background": "gray",
+        "content": [
+          {
+            "id": 0,
+            "content": "Please check the following websites to identify your baby's rash:",
+            "type": "redtext"
+          },
+          {
+            "id": 1,
+            "content": "NHS - UK",
+            "type": "link",
+            "linkUrl": "https://www.nhs.uk/conditions/rashes-babies-and-children/"
+          },
+          {
+            "id": 2,
+            "content": "My Health - Alberta Canada",
+            "type": "link",
+            "linkUrl": "https://myhealth.alberta.ca/Health/Pages/conditions.aspx?hwid=zx1747"
+          },
+          {
+            "id": 3,
+            "content": "NI Direct - Northern Ireland",
+            "type": "link",
+            "linkUrl": "https://www.nidirect.gov.uk/conditions/skin-rashes-babies"
+          },
+          {
+            "id": 4,
+            "content": "Baby Centre - UK",
+            "type": "link",
+            "linkUrl": "https://www.babycentre.co.uk/l1038755/childhood-rashes-skin-conditions-and-infections-photos"
+          },
+          {
+            "id": 5,
+            "content": "Avoid petroleum jelly. It may cause a dermatitis or skin rash.",
+            "type": "text"
+          }
+        ]
+      },
+      {
+        "id": "green",
+        "background": "green",
+        "content": [
+          {
+            "id": 0,
+            "content": "Self limiting rash and do not need any treatment:",
+            "type": "titletext"
+          },
+          {
+            "id": 1,
+            "content": "Erythema toxicum",
+            "type": "text"
+          },
+          {
+            "id": 2,
+            "content": "Pustular melanosis",
+            "type": "text"
+          },
+          {
+            "id": 3,
+            "content": "Miliaria",
+            "type": "text"
+          },
+          {
+            "id": 4,
+            "content": "Milia",
+            "type": "text"
+          },
+          {
+            "id": 5,
+            "content": "Baby acne",
+            "type": "text"
+          },
+          {
+            "id": 6,
+            "content": "Uncomplicated insect bites",
+            "type": "text"
+          },
+          {
+            "id": 7,
+            "content": "Heat rash",
+            "type": "text"
+          },
+          {
+            "id": 8,
+            "content": "Molluscum contagiosum",
+            "type": "text"
+          }
+        ]
+      },
+      {
+        "id": "orange",
+        "background": "orange",
+        "content": [
+          {
+            "id": 0,
+            "content": "Seek help if any of the following present: ",
+            "type": "titletext"
+          },
+          {
+            "id": 1,
+            "content": "Cradle cap (seborrhoeic dermatitis).",
+            "type": "text"
+          },
+          {
+            "id": 2,
+            "content": "Eczema.",
+            "type": "text"
+          },
+          {
+            "id": 3,
+            "content": "Severe nappy rash.",
+            "type": "text"
+          },
+          {
+            "id": 4,
+            "content": "Ringworm.",
+            "type": "text"
+          },
+          {
+            "id": 5,
+            "content": "Scabies.",
+            "type": "text"
+          },
+          {
+            "id": 6,
+            "content": "Large haemangioma (strawberry nevus).",
+            "type": "text"
+          },
+          {
+            "id": 7,
+            "content": "Unknown rash.",
+            "type": "text"
+          }
+        ]
+      },
+      {
+        "id": "red",
+        "background": "red",
+        "content": [
+          {
+            "id": 0,
+            "content": "Seek immediate help if any of the following present: ",
+            "type": "titletext"
+          },
+          {
+            "id": 1,
+            "content": "A rash combined with a fever.",
+            "type": "text"
+          },
+          {
+            "id": 2,
+            "content": "Bruising or bleeding under the skin.",
+            "type": "text"
+          },
+          {
+            "id": 3,
+            "content": "Chickenpox or herpes lesions.",
+            "type": "text"
+          },
+          {
+            "id": 4,
+            "content": "Hives especially in the face.",
+            "type": "text"
+          },
+          {
+            "id": 5,
+            "content": "Cellulitis (warm, red and painful swelling).",
+            "type": "text"
+          },
+          {
+            "id": 6,
+            "content": "Red skin around the navel (omphalitis).",
+            "type": "text"
+          },
+          {
+            "id": 7,
+            "content": "Impetigo (crusting lesions often around mouth and nose).",
+            "type": "text"
+          },
+          {
+            "id": 8,
+            "content": "Staphylococcus scalding skin syndrome.",
+            "type": "text"
+          },
+          {
+            "id": 9,
+            "content": "Large blisters filled with clear fluid or pus.",
+            "type": "text"
+          }
+        ]
+      },
+      {
+        "id": "clear",
+        "background": "clear",
+        "content": [
+            {
+              "id": 0,
+              "content": "Reference: ",
+              "type": "titletext"
+            },
+            {
+                "id": 1,
+                "content": "1. Cameron, P, Browne, G, Biswadev, M, Stuart, D & Simon, C 2019, Textbook of Paediatric Emergency Medicine Third Edition [E-book] Chapter 3.3 Neonatal Dermatology, Elsevier, cited 2023 Aug.  <https://ia802909.us.archive.org/13/items/2-5326064462732461949/2_5326064462732461949.pdf>" ,
+                "type": "text"
+            }
+        ]
+      }
+    ]
+  },
+  
+  {
+    "id": "resources",
+    "name": "Resources",
+    "sections": [
+      {
+        "id": "intro",
+        "background": "gray",
+        "content": [
+          {
+            "id": 0,
+            "content": "WHO Pocket Book (download link)",
+            "type": "link",
+            "linkUrl": "https://apps.who.int/iris/handle/10665/81170"
+          },
+          {
+            "id": 1,
+            "content": "UNICEF: Newborn-baby-health",
+            "type": "link",
+            "linkUrl": "https://www.unicef.org/parenting/health/newborn-baby-health"
+          },
+          {
+            "id": 2,
+            "content": "WHO: Newborn-health",
+            "type": "link",
+            "linkUrl": "https://www.who.int/health-topics/newborn-health#tab=tab_1"
+          },
+          {
+            "id": 3,
+            "content": "WHO: Integrated Management of Childhood Illness",
+            "type": "link",
+            "linkUrl": "https://www.who.int/teams/maternal-newborn-child-adolescent-health-and-ageing/child-health/integrated-management-of-childhood-illness#:~:text=IMCI%20is%20an%20integrated%20approach,under%20five%20years%20of%20age."
+          },
+          {
+            "id": 4,
+            "content": "WHO: Vaccines and Immunization",
+            "type": "link",
+            "linkUrl": "https://www.who.int/health-topics/vaccines-and-immunization#tab=tab_1"
+          },
+          {
+            "id": 5,
+            "content": "American Academy of Pediatrics: healthychildren.org",
+            "type": "link",
+            "linkUrl": "https://www.healthychildren.org/English/ages-stages/baby/Pages/default.aspx"
+          },
+          {
+            "id": 6,
+            "content": "UK - NHS: Baby",
+            "type": "link",
+            "linkUrl": "https://www.nhs.uk/conditions/baby/"
+          },
+          {
+            "id": 7,
+            "content": "Australia: Babies and Toddlers Health",
+            "type": "link",
+            "linkUrl": "https://www.healthdirect.gov.au/babies-and-toddlers-health"
+          },
+          {
+            "id": 8,
+            "content": "UK - National Childbirth Trust",
+            "type": "link",
+            "linkUrl": "https://www.nct.org.uk/baby-toddler/your-babys-health"
+          },
+          {
+            "id": 9,
+            "content": "Paediatric Emergency Medicine (archive.org)",
+            "type": "link",
+            "linkUrl": "https://ia802909.us.archive.org/13/items/2-5326064462732461949/2_5326064462732461949.pdf"
+          }
+        ]
+      },
+      {
+        "id": "red",
+        "background": "red",
+        "content": [
+          {
+            "id": 0,
+            "content": "Keeping Babies Safe: ",
+            "type": "titletext"
+          },
+          {
+            "id": 1,
+            "content": "OPENPediatrics: Keeping babies safe",
+            "type": "link",
+            "linkUrl": "https://www.youtube.com/playlist?list=PLJmgkNI4ruzwqsiFTOhW6ePdlWjsS112L"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "info",
+    "name": "Info",
+    "sections": [
+      {
+        "id": "intro",
+        "background": "gray",
+        "content": [
+          {
+            "id": 0,
+            "content": "Check the supporting website for the Privacy Policy, contact details and more information.",
+            "type": "titletext"
+          },
+          {
+            "id": 1,
+            "content": "https://childhealthforall.com",
+            "type": "link",
+            "linkUrl": "https://childhealthforall.com"
+          },
+          {
+            "id": 2,
+            "content": "Blog",
+            "type": "link",
+            "linkUrl": "https://childhealthforall.com/post/let-us-start-a-village"
+          },
+          {
+            "id": 3,
+            "content": "Child Health 2-60 Months",
+            "type": "link",
+            "linkUrl": "https://apps.apple.com/za/app/child-health-2-60-months/id6470392895"
+          }
+        ]
+      },
+      {
+            "id": "red",
+            "background": "red",
+            "content": [
+                {
+                  "id": 0,
+                  "content": "Important:",
+                  "type": "titletext"
+                },
+                {
+                  "id": 1,
+                  "content": "Privacy Policy: No personal information is collected by this app.",
+                  "type": "text"
+                },
+                {
+                  "id": 2,
+                  "content": "The app contains links to external apps and webpages with their own privacy policies.",
+                  "type": "text"
+                },
+                {
+                  "id": 3,
+                  "content": "Disclaimer: These are guidelines only and not medical advice. Ill children should be seen by a trained health worker.",
+                  "type": "text"
+                },
+                {
+                  "id": 4,
+                  "content": "These guidelines will not cover all conditions that may need medical help.",
+                  "type": "text"
+                },
+                {
+                  "id": 5,
+                  "content": "Premature babies are not covered by these guidelines.",
+                  "type": "text"
+                },
+                {
+                  "id": 6,
+                  "content": "All healthy babies should be seen by a health worker immediately after birth, 2-3 days after delivery and at 6 weeks for a routine assessment.",
+                  "type": "text"
+                },
+                {
+                  "id": 7,
+                  "content": "Exclusive breastfeeding is recommended for the first 6 months of life.",
+                  "type": "text"
+                },
+                {
+                  "id": 8,
+                  "content": "The mother's mental and physical well being is very important for her child's health.",
+                  "type": "text"
+                },
+                {
+                  "id": 9,
+                  "content": "Updated January 2025.",
+                  "type": "text"
+                }
+        ]
+      }
+    ]
+  }
+]
