@@ -1,6 +1,4 @@
-import React from 'react';
-const { useState } = React;
-// Deployment force-refresh: 21:42
+import React, { useState } from 'react';
 import { ShieldAlert, AlertTriangle, CheckCircle, Info, ArrowLeft, Thermometer } from 'lucide-react';
 import SEO from '../components/SEO';
 import babyData from '../data/babyHealth.json';
@@ -19,7 +17,7 @@ import absentRedReflexImg from '../assets/medical/absent-red-reflex.jpg';
 import glaucomaImg from '../assets/medical/glaucoma.jpg';
 import ankyloglossiaImg from '../assets/medical/ankyloglossia.jpg';
 
-import './WebApp.css';
+import './SymptomChecker.css';
 
 // Comprehensive mapping for JSON 'type: image' references
 const imageMap = {
@@ -38,7 +36,7 @@ const imageMap = {
   'Tongue Appearance': tongueImg,
 };
 
-const WebApp = () => {
+const SymptomChecker = () => {
   const [ageGroup, setAgeGroup] = useState(null); // 'baby' | 'child'
   const [selectedCategory, setSelectedCategory] = useState(null);
   
@@ -189,4 +187,5 @@ const WebApp = () => {
   );
 };
 
-export default WebApp;
+export default SymptomChecker;
+

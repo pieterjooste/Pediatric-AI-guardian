@@ -2,7 +2,7 @@ import React from 'react';
 // Deployment force-refresh: 21:42
 import { Apple, Play as PlayIcon } from 'lucide-react';
 import SEO from '../components/SEO';
-import './AppsShowcase.css';
+import './MobileApps.css';
 import iconBaby from '../assets/icon-baby-health.png';
 import iconChild from '../assets/icon-child-health.png';
 import iconWine from '../assets/icon-wine.png';
@@ -47,7 +47,7 @@ const apps = [
   }
 ];
 
-const AppsShowcase = () => {
+const MobileApps = () => {
   return (
     <div className="page-container animate-enter">
       <SEO 
@@ -89,4 +89,4 @@ const AppsShowcase = () => {
   );
 };
 
-export default AppsShowcase;
+export default MobileApps;
