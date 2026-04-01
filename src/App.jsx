@@ -10,6 +10,8 @@ import PrivacyPolicy from './pages/PrivacyPolicy';
 import Blog from './pages/Blog';
 import BlogPost from './pages/BlogPost';
 
+import Contact from './pages/Contact';
+
 function App() {
   return (
     <HelmetProvider>
@@ -23,6 +25,7 @@ function App() {
             <Route path="/vr-medicine" element={<VRMedicine />} />
             <Route path="/blog" element={<Blog />} />
             <Route path="/blog/:id" element={<BlogPost />} />
+            <Route path="/contact" element={<Contact />} />
             <Route path="/privacy-policy" element={<PrivacyPolicy />} />
           </Routes>
         </Layout>

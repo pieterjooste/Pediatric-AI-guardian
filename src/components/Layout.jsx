@@ -1,7 +1,8 @@
 import { Link, useLocation } from 'react-router-dom';
-import { Stethoscope, Smartphone, HeartPulse, Scale, Shield, Menu, X, BookOpen } from 'lucide-react';
+import { Stethoscope, Smartphone, HeartPulse, Scale, Shield, Menu, X, BookOpen, Mail } from 'lucide-react';
 import { useState } from 'react';
 import logoImg from '../assets/logo.png';
+import flagImg from '../assets/sa-flag.png';
 import './Layout.css';
 
 const Layout = ({ children }) => {
@@ -15,6 +16,7 @@ const Layout = ({ children }) => {
     { name: "Mediation", path: "/mediation", icon: <Scale size={18} /> },
     { name: "Insights", path: "/blog", icon: <BookOpen size={18} /> },
     { name: "VR Medicine", path: "/vr-medicine", icon: <Stethoscope size={18} /> },
+    { name: "Contact", path: "/contact", icon: <Mail size={18} /> },
   ];
 
   return (
@@ -81,7 +83,13 @@ const Layout = ({ children }) => {
           </div>
         </div>
         <div className="footer-bottom">
-          <p>&copy; {new Date().getFullYear()} ChildHealthForAll (Pty) Ltd. All rights reserved. <span style={{opacity: 0.5, fontSize: '0.8rem'}}>(v1.0.1-fixed)</span></p>
+          <div className="footer-info">
+            <p>&copy; {new Date().getFullYear()} ChildHealthForAll (Pty) Ltd. All rights reserved.</p>
+            <div className="footer-location">
+              <img src={flagImg} alt="South Africa Flag" className="footer-flag" />
+              <span>Cape Town, South Africa</span>
+            </div>
+          </div>
         </div>
       </footer>
     </div>

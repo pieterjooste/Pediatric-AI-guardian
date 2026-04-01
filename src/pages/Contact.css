@@ -1,0 +1,133 @@
+.contact-hero {
+  position: relative;
+  height: 250px;
+  border-radius: 24px;
+  overflow: hidden;
+  margin-bottom: 3rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  box-shadow: 0 20px 50px rgba(0, 0, 0, 0.4);
+}
+
+.contact-hero-content {
+  position: relative;
+  z-index: 1;
+  padding: 2rem;
+}
+
+.contact-hero-content h1 {
+  font-size: 4rem;
+  margin-bottom: 1rem;
+  text-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
+}
+
+.contact-hero-content p {
+  font-size: 1.2rem;
+  max-width: 600px;
+  margin: 0 auto;
+  color: var(--text-primary);
+  text-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);
+}
+
+.contact-grid {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.topics-section {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.topics-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 1rem;
+}
+
+.topic-tag {
+  background: var(--glass-bg);
+  border: 1px solid var(--glass-border);
+  padding: 0.75rem 1.25rem;
+  border-radius: 12px;
+  font-size: 0.95rem;
+  transition: all 0.3s ease;
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.topic-tag:hover {
+  background: var(--glass-hover);
+  border-color: var(--primary);
+  transform: translateX(5px);
+}
+
+.topic-icon {
+  color: var(--primary);
+}
+
+.contact-info-section {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.contact-card {
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  height: fit-content;
+}
+
+.contact-method {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding: 1rem;
+  border-radius: 12px;
+  background: rgba(255, 255, 255, 0.05);
+  transition: all 0.3s ease;
+}
+
+.contact-method:hover {
+  background: rgba(255, 255, 255, 0.1);
+  transform: translateY(-2px);
+}
+
+.contact-method-icon {
+  background: var(--primary-glow);
+  padding: 0.75rem;
+  border-radius: 10px;
+  color: var(--primary);
+}
+
+.contact-method-details h4 {
+  font-size: 0.9rem;
+  color: var(--text-muted);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  margin-bottom: 0.25rem;
+}
+
+.contact-method-details p {
+  font-size: 1.1rem;
+  font-weight: 500;
+}
+
+/* Mobile Responsiveness */
+@media (max-width: 968px) {
+  .contact-grid {
+    grid-template-columns: 1fr;
+  }
+  
+  .contact-hero-content h1 {
+    font-size: 2.5rem;
+  }
+}
