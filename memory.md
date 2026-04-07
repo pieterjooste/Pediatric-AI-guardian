@@ -10,7 +10,7 @@ This document serves as a repository of long-term business and project knowledge
 
 ## 🛠 Tech Stack
 *   **Frontend**: React (Vite) with Vanilla CSS. 
-*   **Routing**: React Router v6.
+*   **Routing**: React Router v6 (Includes custom `NotFound.jsx` for 404 fallback).
 *   **SEO**: `react-helmet-async` for metadata management.
 *   **Icons**: `lucide-react` (standard set for medical and navigation icons).
 *   **Deployment**: Vercel (Production branch: `main`).
@@ -47,3 +47,5 @@ The application logic is driven by the **IMCI (Integrated Management of Childhoo
 *   **IMCI PDF Integration**: A searchable reference viewer for the full 2019 IMCI Chart Booklet.
 *   **AI Chat**: LLM-powered symptom assistant (RAG-based) to explain guidelines in natural language.
 *   **Multilingual Support**: Expanding guidance to multiple languages.
+*   **Performance Optimization**: Implementing `React.lazy()` and `<Suspense>` in `App.jsx` for route-based code splitting to reduce initial load times.
+*   **Scalable Architecture**: Refactoring `src/pages/` so each page (`.jsx` and `.css`) is grouped into its own dedicated sub-folder as the application grows.

@@ -21,6 +21,10 @@ We transformed an older, likely Wix-based or conceptual site into a premium, cus
 
 ### 4. Component-Driven Medical Data
 *   **Learning**: Storing clinical guidelines in a structured JSON format (`babyHealth.json`) rather than hard-coding them as JSX allows for much easier maintenance. Any agent can now update a medical guideline by simply editing the JSON data without touching the React code.
+### 5. Project Structure & Organization
+*   **Learning**: Having multiple data files floating in root directories causes clutter. Data files like JSON should be stored exclusively inside the `src/data/` folder.
+*   **Lesson**: Empty or duplicate repository folders (like `ChildHealthForAll` vs `child-health-forall`) can cause environment confusion and should be strictly managed and cleaned up.
+*   **Performance**: Importing all pages in `App.jsx` statically increases the initial bundle size. A standard improvement for scaling SPA routing is transitioning to `React.lazy()` for route-based code splitting.
 
 ## 🔍 SEO Strategy
 *   We implemented `react-helmet-async` to provide unique titles and descriptions for every page.

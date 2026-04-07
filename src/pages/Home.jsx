@@ -15,7 +15,7 @@ const Home = () => {
       <section className="hero-section glass-panel">
         <div className="hero-grid">
           <div className="hero-image-container animate-float">
-            <img src={profileImg} alt="Dr. Pieter Jooste" className="hero-profile-image" />
+            <img src={profileImg} alt="Dr. Pieter Jooste" className="hero-profile-image" fetchpriority="high" loading="eager" />
           </div>
           <div className="hero-content">
             <h1 className="hero-title">

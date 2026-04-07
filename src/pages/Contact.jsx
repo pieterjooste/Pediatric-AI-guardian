@@ -11,11 +11,11 @@ const Contact = () => {
     { name: "Rare diseases", icon: <Microscope size={18} /> },
     { name: "Gut microbiome", icon: <Brain size={18} /> },
     { name: "Acute pain management in children with Virtual Reality", icon: <Cpu size={18} /> },
-    { name: "Chronic Pain in adults and children", icon: <Heart size={18} /> },
+    { name: "Chronic pain in adults and children", icon: <Heart size={18} /> },
     { name: "Sleep problems in adults and children", icon: <CloudMoon size={18} /> },
     { name: "Tendon injuries", icon: <Thermometer size={18} /> },
     { name: "The use of Technology in Medicine", icon: <Smartphone size={18} /> },
-    { name: "Artificial intelligence", icon: <Cpu size={18} /> },
+    { name: "Artificial Intelligence", icon: <Cpu size={18} /> },
     { name: "Mediation in Medical Negligence cases", icon: <Scale size={18} /> }
   ];
 
