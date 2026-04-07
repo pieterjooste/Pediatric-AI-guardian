@@ -1,179 +1,179 @@
 [
-    {
-        "id": "emergency",
-        "name": "Emergency",
-        "sections": [
-            {
-            "id": "red",
-            "background": "red",
-            "content": [
-              {
-                "id": 0,
-                "content": "Obstructed or absent breathing",
-                "type": "titletext"
-              },
-              {
-                "id": 1,
-                "content": "The aspiration of a foreign body may be the cause of obstructed or absent breathing.",
-                "type": "text"
-              },
-              {
-                "id": 2,
-                "content": "Noisy breathing (stridor) and struggling to breath are also signs of an obstructed airway.",
-                "type": "text"
-              },
-              {
-                "id": 3,
-                "content": "The Heimlich maneuver should be used to remove a foreign body from the airway.",
-                "type": "text"
-              },
-              {
-                  "id": 4,
-                  "content": "Heimlich maneuver from CHOC",
-                  "type": "link",
-                  "linkUrl": "https://www.youtube.com/watch?v=aXaLc-AwX2g"
-              },
-              {
-                "id": 5,
-                "content": "Perform mouth to mouth breathing if there is no breathing and call for help.",
-                "type": "text"
-              },
-              {
-                "id": 6,
-                "content": "If there is no heartbeat, start with chest compressions. (30 compressions: 2 breaths)\n",
-                "type": "text"
-              },
-              {
-                  "id": 7,
-                  "content": "CPR and Choking Training Video",
-                  "type": "link",
-                  "linkUrl": "https://www.rch.org.au/cocoon/project/moving-on/Family_resuscitation_training_videos/"
-              },
-              {
-                "id": 8,
-                "content": "Video Credit: Royal Children's Hospital Melbourne",
-                "type": "text"
-              },
-              {
-                "id": 9,
-                "content": "Severe respiratory distress",
-                "type": "titletext"
-              },
-              {
-                "id": 10,
-                "content": "Fast breathing, chest indrawing, nasal flaring and a grunting noise on exhalation are signs of severe respiratory distress.",
-                "type": "text"
-              },
-              {
-                "id": 11,
-                "content": "Oxygen and antibiotics for a lung infection are indicated.\n",
-                "type": "text"
-              },
-              {
-                "id": 12,
-                "content": "Central cyanosis",
-                "type": "titletext"
-              },
-              {
-                "id": 13,
-                "content": "Central cyanosis can be identified by blue lips and tongue and indicate a lack of oxygen.",
-                "type": "text"
-              },
-              {
-                "id": 14,
-                "content": "If oxygen saturation is less than 90% in room air, extra oxygen is needed.\n",
-                "type": "text"
-              },
-              {
-                "id": 15,
-                "content": "Signs of shock",
-                "type": "titletext"
-              },
-              {
-                "id": 16,
-                "content": "Cold hands and a high heart rate with a weak pulse are signs of shock.",
-                "type": "text"
-              },
-              {
-                "id": 17,
-                "content": "Severe dehydration, blood infection (septicaemia), significant blood loss and heart failure may cause shock and urgent treatment is needed.\n",
-                "type": "text"
-              },
-              {
-                "id": 18,
-                "content": "Coma",
-                "type": "titletext"
-              },
-              {
-                "id": 19,
-                "content": "If coma is caused by head trauma a neck injury is also possible. Stabilize the neck and keep the child lying on the back.",
-                "type": "text"
-              },
-              {
-                "id": 20,
-                "content": "If neck trauma is not suspected, turn the child on the side to reduce the risk of aspiration.",
-                "type": "text"
-              },
-              {
-                "id": 21,
-                "content": "Coma or a reduced level of consciousness may have many causes. A low blood sugar or convulsions should always be excluded.\n",
-                "type": "text"
-              },
-              {
-                "id": 22,
-                "content": "Convulsions",
-                "type": "titletext"
-              },
-              {
-                "id": 23,
-                "content": "Convulsions (seizures,epilepsy) can be identified by abnormal movements and a depressed level of consciousness.",
-                "type": "text"
-              },
-              {
-                "id": 24,
-                "content": "Ensure the airway is open and turn the child on the side to prevent aspiration.",
-                "type": "text"
-              },
-              {
-                "id": 25,
-                "content": "Urgent treatment is necessary to stop convulsions. A low blood glucose should also be excluded.\n",
-                "type": "text"
-              },
-              {
-                "id": 26,
-                "content": "Signs of severe dehydration",
-                "type": "titletext"
-              },
-              {
-                "id": 27,
-                "content": "Lethargy, sunken eyes and a very slow return after pinching the skin are signs of severe dehydration. It is usually caused by severe diarrhoea and vomiting.",
-                "type": "text"
-              },
-              {
-                "id": 28,
-                "content": "Urgent fluid administration is necessary.",
-                "type": "text"
-              }
-            ]
+  {
+    "id": "emergency",
+    "name": "Emergency",
+    "sections": [
+      {
+        "id": "red",
+        "background": "red",
+        "content": [
+          {
+            "id": 0,
+            "content": "Obstructed or absent breathing",
+            "type": "titletext"
           },
           {
-            "id": "clear",
-            "background": "clear",
-            "content": [
-              {
-                "id": 0,
-                "content": "References: ",
-                "type": "titletext"
-              },
-              {
-                "id": 1,
-                "content": "World Health Organization. (2013). Pocket book of hospital care for children: Guidelines for the management of common childhood illnesses, 2nd ed.. Section 1.1 Triage; p 2-3. <https://apps.who.int/iris/handle/10665/81170>",
-                "type": "text"
-              }
-            ]
+            "id": 1,
+            "content": "The aspiration of a foreign body may be the cause of obstructed or absent breathing.",
+            "type": "text"
+          },
+          {
+            "id": 2,
+            "content": "Noisy breathing (stridor) and struggling to breath are also signs of an obstructed airway.",
+            "type": "text"
+          },
+          {
+            "id": 3,
+            "content": "The Heimlich maneuver should be used to remove a foreign body from the airway.",
+            "type": "text"
+          },
+          {
+            "id": 4,
+            "content": "Heimlich maneuver from CHOC",
+            "type": "link",
+            "linkUrl": "https://www.youtube.com/watch?v=aXaLc-AwX2g"
+          },
+          {
+            "id": 5,
+            "content": "Perform mouth to mouth breathing if there is no breathing and call for help.",
+            "type": "text"
+          },
+          {
+            "id": 6,
+            "content": "If there is no heartbeat, start with chest compressions. (30 compressions: 2 breaths)\n",
+            "type": "text"
+          },
+          {
+            "id": 7,
+            "content": "CPR and Choking Training Video",
+            "type": "link",
+            "linkUrl": "https://www.rch.org.au/cocoon/project/moving-on/Family_resuscitation_training_videos/"
+          },
+          {
+            "id": 8,
+            "content": "Video Credit: Royal Children's Hospital Melbourne",
+            "type": "text"
+          },
+          {
+            "id": 9,
+            "content": "Severe respiratory distress",
+            "type": "titletext"
+          },
+          {
+            "id": 10,
+            "content": "Fast breathing, chest indrawing, nasal flaring and a grunting noise on exhalation are signs of severe respiratory distress.",
+            "type": "text"
+          },
+          {
+            "id": 11,
+            "content": "Oxygen and antibiotics for a lung infection are indicated.\n",
+            "type": "text"
+          },
+          {
+            "id": 12,
+            "content": "Central cyanosis",
+            "type": "titletext"
+          },
+          {
+            "id": 13,
+            "content": "Central cyanosis can be identified by blue lips and tongue and indicate a lack of oxygen.",
+            "type": "text"
+          },
+          {
+            "id": 14,
+            "content": "If oxygen saturation is less than 90% in room air, extra oxygen is needed.\n",
+            "type": "text"
+          },
+          {
+            "id": 15,
+            "content": "Signs of shock",
+            "type": "titletext"
+          },
+          {
+            "id": 16,
+            "content": "Cold hands and a high heart rate with a weak pulse are signs of shock.",
+            "type": "text"
+          },
+          {
+            "id": 17,
+            "content": "Severe dehydration, blood infection (septicaemia), significant blood loss and heart failure may cause shock and urgent treatment is needed.\n",
+            "type": "text"
+          },
+          {
+            "id": 18,
+            "content": "Coma",
+            "type": "titletext"
+          },
+          {
+            "id": 19,
+            "content": "If coma is caused by head trauma a neck injury is also possible. Stabilize the neck and keep the child lying on the back.",
+            "type": "text"
+          },
+          {
+            "id": 20,
+            "content": "If neck trauma is not suspected, turn the child on the side to reduce the risk of aspiration.",
+            "type": "text"
+          },
+          {
+            "id": 21,
+            "content": "Coma or a reduced level of consciousness may have many causes. A low blood sugar or convulsions should always be excluded.\n",
+            "type": "text"
+          },
+          {
+            "id": 22,
+            "content": "Convulsions",
+            "type": "titletext"
+          },
+          {
+            "id": 23,
+            "content": "Convulsions (seizures,epilepsy) can be identified by abnormal movements and a depressed level of consciousness.",
+            "type": "text"
+          },
+          {
+            "id": 24,
+            "content": "Ensure the airway is open and turn the child on the side to prevent aspiration.",
+            "type": "text"
+          },
+          {
+            "id": 25,
+            "content": "Urgent treatment is necessary to stop convulsions. A low blood glucose should also be excluded.\n",
+            "type": "text"
+          },
+          {
+            "id": 26,
+            "content": "Signs of severe dehydration",
+            "type": "titletext"
+          },
+          {
+            "id": 27,
+            "content": "Lethargy, sunken eyes and a very slow return after pinching the skin are signs of severe dehydration. It is usually caused by severe diarrhoea and vomiting.",
+            "type": "text"
+          },
+          {
+            "id": 28,
+            "content": "Urgent fluid administration is necessary.",
+            "type": "text"
           }
         ]
       },
+      {
+        "id": "clear",
+        "background": "clear",
+        "content": [
+          {
+            "id": 0,
+            "content": "References: ",
+            "type": "titletext"
+          },
+          {
+            "id": 1,
+            "content": "World Health Organization. (2013). Pocket book of hospital care for children: Guidelines for the management of common childhood illnesses, 2nd ed.. Section 1.1 Triage; p 2-3. <https://apps.who.int/iris/handle/10665/81170>",
+            "type": "text"
+          }
+        ]
+      }
+    ]
+  },
   {
     "id": "brain",
     "name": "Brain",
@@ -604,10 +604,10 @@
                   "type": "redtext"
                 },
                 {
-                    "id": 2,
-                    "content": "CPR and Choking Training Video from RCH",
-                    "type": "link",
-                    "linkUrl": "https://www.rch.org.au/cocoon/project/moving-on/Family_resuscitation_training_videos/"
+                  "id": 2,
+                  "content": "CPR and Choking Training Video from RCH",
+                  "type": "link",
+                  "linkUrl": "https://www.rch.org.au/cocoon/project/moving-on/Family_resuscitation_training_videos/"
                 },
                 {
                   "id": 3,
@@ -1432,59 +1432,59 @@
             "content": "Geographic tongue",
             "type": "button",
             "sheet": {
-                "title": "Geographic Tongue",
-                "sheetContent": [
-                    {
-                        "id": 0,
-                        "content": "Tongue",
-                        "type": "image"
-                    },
-                    {
-                        "id": 1,
-                        "content": "Image credit: Wikipedia",
-                        "type": "text"
-                    },
-                    {
-                        "id": 2,
-                        "content": "Also known as benign migratory glossitis.",
-                        "type": "text"
-                    },
-                    {
-                        "id": 3,
-                        "content": "It is a recurrent inflammatory disorder of unknown cause that affects the tongue and sometimes also the mouth.",
-                        "type": "greentext"
-                    },
-                    {
-                        "id": 4,
-                        "content": "On the tongue local loss of papillae leads to red patches with white borders that give the tongue the appearance of a map.",
-                        "type": "text"
-                    },
-                    {
-                        "id": 5,
-                        "content": "Lesions can change location, pattern, and size very rapidly.",
-                        "type": "greentext"
-                    },
-                    {
-                        "id": 6,
-                        "content": "Patients may have numerous episodes over time.",
-                        "type": "text"
-                    },
-                    {
-                        "id": 7,
-                        "content": "It is usually asymptomatic. Patients may complain of a burning sensation. ",
-                        "type": "greentext"
-                    },
-                    {
-                        "id": 8,
-                        "content": "Usually no treatment is necessary.",
-                        "type": "text"
-                    },
-                    {
-                        "id": 9,
-                        "content": "Reference: Lodi G, Oral lesions, UpToDate, updated 2023 Oct, cited 2023 Nov.",
-                        "type": "text"
-                    }
-                ]
+              "title": "Geographic Tongue",
+              "sheetContent": [
+                {
+                  "id": 0,
+                  "content": "Tongue",
+                  "type": "image"
+                },
+                {
+                  "id": 1,
+                  "content": "Image credit: Wikipedia",
+                  "type": "text"
+                },
+                {
+                  "id": 2,
+                  "content": "Also known as benign migratory glossitis.",
+                  "type": "text"
+                },
+                {
+                  "id": 3,
+                  "content": "It is a recurrent inflammatory disorder of unknown cause that affects the tongue and sometimes also the mouth.",
+                  "type": "greentext"
+                },
+                {
+                  "id": 4,
+                  "content": "On the tongue local loss of papillae leads to red patches with white borders that give the tongue the appearance of a map.",
+                  "type": "text"
+                },
+                {
+                  "id": 5,
+                  "content": "Lesions can change location, pattern, and size very rapidly.",
+                  "type": "greentext"
+                },
+                {
+                  "id": 6,
+                  "content": "Patients may have numerous episodes over time.",
+                  "type": "text"
+                },
+                {
+                  "id": 7,
+                  "content": "It is usually asymptomatic. Patients may complain of a burning sensation. ",
+                  "type": "greentext"
+                },
+                {
+                  "id": 8,
+                  "content": "Usually no treatment is necessary.",
+                  "type": "text"
+                },
+                {
+                  "id": 9,
+                  "content": "Reference: Lodi G, Oral lesions, UpToDate, updated 2023 Oct, cited 2023 Nov.",
+                  "type": "text"
+                }
+              ]
             }
           }
         ]
@@ -1588,54 +1588,54 @@
             "content": "tongue tie",
             "type": "button",
             "sheet": {
-                "title": "Tongue Tie / Ankyloglossia",
-                "sheetContent": [
-                    {
-                        "id": 0,
-                        "content": "Ankyloglossia",
-                        "type": "image"
-                    },
-                    {
-                        "id": 1,
-                        "content": "Image credit: Wikipedia",
-                        "type": "text"
-                    },
-                    {
-                        "id": 2,
-                        "content": "Tongue tie is a condition of limited tongue mobility caused by a restrictive lingual frenulum.",
-                        "type": "text"
-                    },
-                    {
-                        "id": 3,
-                        "content": "It can cause difficulty lifting, protruding and moving the tongue from side to side.",
-                        "type": "greentext"
-                    },
-                    {
-                        "id": 4,
-                        "content": "It causes a notched or heart shaped tongue when protruded.",
-                        "type": "text"
-                    },
-                    {
-                        "id": 5,
-                        "content": "Seek help if tongue tie:\n\n*is causing breastfeeding problems not responding to lactation support.\n\n*if a tongue tie causes speech problems not responding to speech therapy.",
-                        "type": "greentext"
-                    },
-                    {
-                        "id": 6,
-                        "content": "The doctor may consider clipping the tongue tie (frenotomy).",
-                        "type": "text"
-                    },
-                    {
-                        "id": 7,
-                        "content": "A tongue tie will not cause speech delay.",
-                        "type": "greentext"
-                    },
-                    {
-                        "id": 8,
-                        "content": "Reference: Isaacson, G, Ankyloglossia (tongue-tie) in infants and children, UpToDate, updated 2023 May, cited 2023 Oct.",
-                        "type": "text"
-                    }
-                ]
+              "title": "Tongue Tie / Ankyloglossia",
+              "sheetContent": [
+                {
+                  "id": 0,
+                  "content": "Ankyloglossia",
+                  "type": "image"
+                },
+                {
+                  "id": 1,
+                  "content": "Image credit: Wikipedia",
+                  "type": "text"
+                },
+                {
+                  "id": 2,
+                  "content": "Tongue tie is a condition of limited tongue mobility caused by a restrictive lingual frenulum.",
+                  "type": "text"
+                },
+                {
+                  "id": 3,
+                  "content": "It can cause difficulty lifting, protruding and moving the tongue from side to side.",
+                  "type": "greentext"
+                },
+                {
+                  "id": 4,
+                  "content": "It causes a notched or heart shaped tongue when protruded.",
+                  "type": "text"
+                },
+                {
+                  "id": 5,
+                  "content": "Seek help if tongue tie:\n\n*is causing breastfeeding problems not responding to lactation support.\n\n*if a tongue tie causes speech problems not responding to speech therapy.",
+                  "type": "greentext"
+                },
+                {
+                  "id": 6,
+                  "content": "The doctor may consider clipping the tongue tie (frenotomy).",
+                  "type": "text"
+                },
+                {
+                  "id": 7,
+                  "content": "A tongue tie will not cause speech delay.",
+                  "type": "greentext"
+                },
+                {
+                  "id": 8,
+                  "content": "Reference: Isaacson, G, Ankyloglossia (tongue-tie) in infants and children, UpToDate, updated 2023 May, cited 2023 Oct.",
+                  "type": "text"
+                }
+              ]
             }
           },
           {
@@ -2134,7 +2134,7 @@
         "content": [
           {
             "id": 0,
-            "content": "Normal weight for age: View in landscape mode.",
+            "content": "Normal weight for age:",
             "type": "titletext"
           },
           {
@@ -2227,31 +2227,31 @@
         "id": "clear",
         "background": "clear",
         "content": [
-            {
-              "id": 0,
-              "content": "References: ",
-              "type": "titletext"
-            },
-            {
-                "id": 1,
-                "content": "1. KidsHealth [Internet]. Nemours Children’s Health. Growth Charts; reviewed 2019 Aug; cited 2023 Oct. <https://kidshealth.org/en/parents/growth-charts.html>" ,
-                "type": "text"
-            },
-            {
-                "id": 2,
-                "content": "2. World Health Organization. (‎2013)‎. Pocket book of hospital care for children: Guidelines for the management of common childhood illnesses, 2nd ed..  Severe Acute Malnutrition; p 197-199, Annex 5 Assessing nutritional status; p 379-391. <https://apps.who.int/iris/handle/10665/81170>" ,
-                "type": "text"
-            },
-            {
-                "id": 3,
-                "content": "3. Mayo Clinic [Internet]. Infant and toddler health. How much should I expect my baby to grow in the first year? ; reviewed 2023 Jan; cited 2023 Aug. < https://www.mayoclinic.org/healthy-lifestyle/infant-and-toddler-health/expert-answers/infant-growth/faq-20058037#:~:text=Height.,(1.3%20centimeters)%20each%20month.>" ,
-                "type": "text"
-            },
-            {
-                "id": 4,
-                "content": "4. Centers for Disease Control and Prevention [Internet]. National Center for Health Statistics: Growth Charts; reviewed 2022 Dec; cited 2023 Oct. <https://www.cdc.gov/growthcharts/index.htm>" ,
-                "type": "text"
-            }
+          {
+            "id": 0,
+            "content": "References: ",
+            "type": "titletext"
+          },
+          {
+            "id": 1,
+            "content": "1. KidsHealth [Internet]. Nemours Children’s Health. Growth Charts; reviewed 2019 Aug; cited 2023 Oct. <https://kidshealth.org/en/parents/growth-charts.html>",
+            "type": "text"
+          },
+          {
+            "id": 2,
+            "content": "2. World Health Organization. (‎2013)‎. Pocket book of hospital care for children: Guidelines for the management of common childhood illnesses, 2nd ed..  Severe Acute Malnutrition; p 197-199, Annex 5 Assessing nutritional status; p 379-391. <https://apps.who.int/iris/handle/10665/81170>",
+            "type": "text"
+          },
+          {
+            "id": 3,
+            "content": "3. Mayo Clinic [Internet]. Infant and toddler health. How much should I expect my baby to grow in the first year? ; reviewed 2023 Jan; cited 2023 Aug. < https://www.mayoclinic.org/healthy-lifestyle/infant-and-toddler-health/expert-answers/infant-growth/faq-20058037#:~:text=Height.,(1.3%20centimeters)%20each%20month.>",
+            "type": "text"
+          },
+          {
+            "id": 4,
+            "content": "4. Centers for Disease Control and Prevention [Internet]. National Center for Health Statistics: Growth Charts; reviewed 2022 Dec; cited 2023 Oct. <https://www.cdc.gov/growthcharts/index.htm>",
+            "type": "text"
+          }
         ]
       }
     ]
@@ -2335,39 +2335,39 @@
             "content": "constipation",
             "type": "button",
             "sheet": {
-                "title": "Constipation",
-                "sheetContent": [
-                    {
-                        "id": 0,
-                        "content": "Stools",
-                        "type": "image"
-                    },
-                    {
-                        "id": 1,
-                        "content": "Image credit: University of Bristol",
-                        "type": "text"
-                    },
-                    {
-                        "id": 2,
-                        "content": "Type 1 - Severe constipation",
-                        "type": "redtext"
-                    },
-                    {
-                        "id": 3,
-                        "content": "Type 2 - Mild constipation.",
-                        "type": "redtext"
-                    },
-                    {
-                        "id": 4,
-                        "content": "Type 3 - 4 Normal stools.",
-                        "type": "text"
-                    },
-                    {
-                        "id": 5,
-                        "content": "Only type 1 and 2 need treatment. If the child is passing normal stools once a week no treatment is necessary.",
-                        "type": "text"
-                    }
-                ]
+              "title": "Constipation",
+              "sheetContent": [
+                {
+                  "id": 0,
+                  "content": "Stools",
+                  "type": "image"
+                },
+                {
+                  "id": 1,
+                  "content": "Image credit: University of Bristol",
+                  "type": "text"
+                },
+                {
+                  "id": 2,
+                  "content": "Type 1 - Severe constipation",
+                  "type": "redtext"
+                },
+                {
+                  "id": 3,
+                  "content": "Type 2 - Mild constipation.",
+                  "type": "redtext"
+                },
+                {
+                  "id": 4,
+                  "content": "Type 3 - 4 Normal stools.",
+                  "type": "text"
+                },
+                {
+                  "id": 5,
+                  "content": "Only type 1 and 2 need treatment. If the child is passing normal stools once a week no treatment is necessary.",
+                  "type": "text"
+                }
+              ]
             }
           }
         ]
@@ -2547,10 +2547,10 @@
             "type": "text"
           },
           {
-              "id": 2,
-              "content": "CPR Training Video RCH Melbourne",
-              "type": "link",
-              "linkUrl": "https://www.rch.org.au/cocoon/project/moving-on/Family_resuscitation_training_videos/"
+            "id": 2,
+            "content": "CPR Training Video RCH Melbourne",
+            "type": "link",
+            "linkUrl": "https://www.rch.org.au/cocoon/project/moving-on/Family_resuscitation_training_videos/"
           },
           {
             "id": 3,
@@ -2770,104 +2770,104 @@
             "content": "Growing pains",
             "type": "button",
             "sheet": {
-                "title": "Growing pains",
-                "sheetContent": [
-                    {
-                        "id": 0,
-                        "content": "Clinical features and Epidemiology:",
-                        "type": "titletext"
-                    },
-                    {
-                        "id": 1,
-                        "content": "Recurrent, self-limited episodes of limb pain,",
-                        "type": "text"
-                    },
-                    {
-                        "id": 2,
-                        "content": "affecting both lower extremities,",
-                        "type": "greentext"
-                    },
-                    {
-                        "id": 3,
-                        "content": "in children 3-12 years old,",
-                        "type": "text"
-                    },
-                    {
-                        "id": 4,
-                        "content": "occur late in the day and frequently awakens the child during the night,",
-                        "type": "greentext"
-                    },
-                    {
-                        "id": 5,
-                        "content": "there are no musculoskeletal abnormalities,",
-                        "type": "text"
-                    },
-                    {
-                        "id": 6,
-                        "content": "these pains do not affect usual activities and function,",
-                        "type": "greentext"
-                    },
-                    {
-                        "id": 7,
-                        "content": "and children are otherwise healthy.",
-                        "type": "text"
-                    },
-                    {
-                        "id": 8,
-                        "content": "The pain caused by bone cancer is typically only in one limb, persistent and worsen with time and activity. Swelling and tenderness may also be present.",
-                        "type": "redtext"
-                    },
-                    {
-                        "id": 9,
-                        "content": "Cause:",
-                        "type": "titletext"
-                    },
-                    {
-                        "id": 10,
-                        "content": "Unknown",
-                        "type": "text"
-                    },
-                    {
-                        "id": 11,
-                        "content": "Management:",
-                        "type": "titletext"
-                    },
-                    {
-                        "id": 12,
-                        "content": "Heat, massage, muscle stretches, analgesics (pain medication).",
-                        "type": "text"
-                    },
-                    {
-                        "id": 13,
-                        "content": "For children who awaken at night due to pain with a predictable pattern, preventative administration of analgesics before bedtime can be used.",
-                        "type": "text"
-                    },
-                    {
-                        "id": 14,
-                        "content": "Prognosis:",
-                        "type": "titletext"
-                    },
-                    {
-                        "id": 15,
-                        "content": "Prognosis is good, with a decrease in pain episodes over time with and should settle early in second decade of life.",
-                        "type": "greentext"
-                    },
-                    {
-                        "id": 16,
-                        "content": "References:",
-                        "type": "titletext"
-                    },
-                    {
-                        "id": 17,
-                        "content": "Hashkes, PJ, Growing pains. UpToDate. updated 2023 Jun, cited 2023 Oct.",
-                        "type": "text"
-                    },
-                    {
-                        "id": 18,
-                        "content": "https://www.nhs.uk/conditions/bone-cancer/symptoms/, last reviewed 20 Jun 2021, cited Jan 2025.",
-                        "type": "text"
-                    }
-                ]
+              "title": "Growing pains",
+              "sheetContent": [
+                {
+                  "id": 0,
+                  "content": "Clinical features and Epidemiology:",
+                  "type": "titletext"
+                },
+                {
+                  "id": 1,
+                  "content": "Recurrent, self-limited episodes of limb pain,",
+                  "type": "text"
+                },
+                {
+                  "id": 2,
+                  "content": "affecting both lower extremities,",
+                  "type": "greentext"
+                },
+                {
+                  "id": 3,
+                  "content": "in children 3-12 years old,",
+                  "type": "text"
+                },
+                {
+                  "id": 4,
+                  "content": "occur late in the day and frequently awakens the child during the night,",
+                  "type": "greentext"
+                },
+                {
+                  "id": 5,
+                  "content": "there are no musculoskeletal abnormalities,",
+                  "type": "text"
+                },
+                {
+                  "id": 6,
+                  "content": "these pains do not affect usual activities and function,",
+                  "type": "greentext"
+                },
+                {
+                  "id": 7,
+                  "content": "and children are otherwise healthy.",
+                  "type": "text"
+                },
+                {
+                  "id": 8,
+                  "content": "The pain caused by bone cancer is typically only in one limb, persistent and worsen with time and activity. Swelling and tenderness may also be present.",
+                  "type": "redtext"
+                },
+                {
+                  "id": 9,
+                  "content": "Cause:",
+                  "type": "titletext"
+                },
+                {
+                  "id": 10,
+                  "content": "Unknown",
+                  "type": "text"
+                },
+                {
+                  "id": 11,
+                  "content": "Management:",
+                  "type": "titletext"
+                },
+                {
+                  "id": 12,
+                  "content": "Heat, massage, muscle stretches, analgesics (pain medication).",
+                  "type": "text"
+                },
+                {
+                  "id": 13,
+                  "content": "For children who awaken at night due to pain with a predictable pattern, preventative administration of analgesics before bedtime can be used.",
+                  "type": "text"
+                },
+                {
+                  "id": 14,
+                  "content": "Prognosis:",
+                  "type": "titletext"
+                },
+                {
+                  "id": 15,
+                  "content": "Prognosis is good, with a decrease in pain episodes over time with and should settle early in second decade of life.",
+                  "type": "greentext"
+                },
+                {
+                  "id": 16,
+                  "content": "References:",
+                  "type": "titletext"
+                },
+                {
+                  "id": 17,
+                  "content": "Hashkes, PJ, Growing pains. UpToDate. updated 2023 Jun, cited 2023 Oct.",
+                  "type": "text"
+                },
+                {
+                  "id": 18,
+                  "content": "https://www.nhs.uk/conditions/bone-cancer/symptoms/, last reviewed 20 Jun 2021, cited Jan 2025.",
+                  "type": "text"
+                }
+              ]
             }
           }
         ]
@@ -2952,35 +2952,35 @@
             "content": "floppy/weak",
             "type": "button",
             "sheet": {
-                "title": "Floppy/weak",
-                "sheetContent": [
-                    {
-                        "id": 0,
-                        "content": "It is also known as hypotonia, with many different causes originating from the brain, nerves or the muscles.",
-                        "type": "text"
-                    },
-                    {
-                        "id": 1,
-                        "content": "At 2 months babies should be able to lift their heads if lying on their stomachs and there should be head control when kept in a sitting position. Babies should be able to lift their limbs from a surface when lying on their backs.",
-                        "type": "redtext"
-                    },
-                    {
-                        "id": 2,
-                        "content": "Video link to CureSMA on YouTube below demonstrating a floppy baby with weakness and hypotonia:",
-                        "type": "text"
-                    },
-                    {
-                        "id": 3,
-                        "content": "Video",
-                        "type": "link",
-                        "linkUrl": "https://youtu.be/pZHhAcSrFIY"
-                    },
-                    {
-                        "id": 4,
-                        "content": "A health worker should confirm the signs and symptoms and a referral to a specialist may be necessary to determine the cause.",
-                        "type": "redtext"
-                    }
-                ]
+              "title": "Floppy/weak",
+              "sheetContent": [
+                {
+                  "id": 0,
+                  "content": "It is also known as hypotonia, with many different causes originating from the brain, nerves or the muscles.",
+                  "type": "text"
+                },
+                {
+                  "id": 1,
+                  "content": "At 2 months babies should be able to lift their heads if lying on their stomachs and there should be head control when kept in a sitting position. Babies should be able to lift their limbs from a surface when lying on their backs.",
+                  "type": "redtext"
+                },
+                {
+                  "id": 2,
+                  "content": "Video link to CureSMA on YouTube below demonstrating a floppy baby with weakness and hypotonia:",
+                  "type": "text"
+                },
+                {
+                  "id": 3,
+                  "content": "Video",
+                  "type": "link",
+                  "linkUrl": "https://youtu.be/pZHhAcSrFIY"
+                },
+                {
+                  "id": 4,
+                  "content": "A health worker should confirm the signs and symptoms and a referral to a specialist may be necessary to determine the cause.",
+                  "type": "redtext"
+                }
+              ]
             }
           }
         ]
@@ -3550,10 +3550,10 @@
             "type": "text"
           },
           {
-              "id": 18,
-              "content": "Heimlich maneuver from CHOC",
-              "type": "link",
-              "linkUrl": "https://www.youtube.com/watch?v=aXaLc-AwX2g"
+            "id": 18,
+            "content": "Heimlich maneuver from CHOC",
+            "type": "link",
+            "linkUrl": "https://www.youtube.com/watch?v=aXaLc-AwX2g"
           },
           {
             "id": 19,
@@ -3566,10 +3566,10 @@
             "type": "text"
           },
           {
-              "id": 21,
-              "content": "CPR Training Video",
-              "type": "link",
-              "linkUrl": "https://www.rch.org.au/cocoon/project/moving-on/Family_resuscitation_training_videos/"
+            "id": 21,
+            "content": "CPR Training Video",
+            "type": "link",
+            "linkUrl": "https://www.rch.org.au/cocoon/project/moving-on/Family_resuscitation_training_videos/"
           },
           {
             "id": 22,
@@ -3719,59 +3719,59 @@
         ]
       },
       {
-            "id": "red",
-            "background": "red",
-            "content": [
-                {
-                  "id": 0,
-                  "content": "Important:",
-                  "type": "titletext"
-                },
-                {
-                  "id": 1,
-                  "content": "Privacy Policy: No personal information is collected by this app.",
-                  "type": "text"
-                },
-                {
-                  "id": 2,
-                  "content": "The app contains links to external apps and webpages with their own privacy policies.",
-                  "type": "text"
-                },
-                {
-                  "id": 3,
-                  "content": "Disclaimer: These are guidelines only and not medical advice. Ill children should be seen by a trained health worker.",
-                  "type": "text"
-                },
-                {
-                  "id": 4,
-                  "content": "These guidelines will not cover all conditions that may need medical help.",
-                  "type": "text"
-                },
-                {
-                  "id": 5,
-                  "content": "All children should have regular weight checks and their growth charts must be updated.",
-                  "type": "text"
-                },
-                {
-                  "id": 6,
-                  "content": "All children must follow their country's immunisation schedule.",
-                  "type": "text"
-                },
-                {
-                  "id": 7,
-                  "content": "Exclusive breastfeeding is recommended for the first 6 months of life.",
-                  "type": "text"
-                },
-                {
-                  "id": 8,
-                  "content": "The mother's mental and physical well being is very important for her child's health.",
-                  "type": "text"
-                },
-                {
-                  "id": 9,
-                  "content": "Updated January 2025.",
-                  "type": "text"
-                }
+        "id": "red",
+        "background": "red",
+        "content": [
+          {
+            "id": 0,
+            "content": "Important:",
+            "type": "titletext"
+          },
+          {
+            "id": 1,
+            "content": "Privacy Policy: No personal information is collected by this app.",
+            "type": "text"
+          },
+          {
+            "id": 2,
+            "content": "The app contains links to external apps and webpages with their own privacy policies.",
+            "type": "text"
+          },
+          {
+            "id": 3,
+            "content": "Disclaimer: These are guidelines only and not medical advice. Ill children should be seen by a trained health worker.",
+            "type": "text"
+          },
+          {
+            "id": 4,
+            "content": "These guidelines will not cover all conditions that may need medical help.",
+            "type": "text"
+          },
+          {
+            "id": 5,
+            "content": "All children should have regular weight checks and their growth charts must be updated.",
+            "type": "text"
+          },
+          {
+            "id": 6,
+            "content": "All children must follow their country's immunisation schedule.",
+            "type": "text"
+          },
+          {
+            "id": 7,
+            "content": "Exclusive breastfeeding is recommended for the first 6 months of life.",
+            "type": "text"
+          },
+          {
+            "id": 8,
+            "content": "The mother's mental and physical well being is very important for her child's health.",
+            "type": "text"
+          },
+          {
+            "id": 9,
+            "content": "Updated January 2025.",
+            "type": "text"
+          }
         ]
       }
     ]
