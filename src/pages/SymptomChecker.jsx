@@ -39,7 +39,7 @@ const imageMap = {
 const SymptomChecker = () => {
   const [ageGroup, setAgeGroup] = useState(null); // 'baby' | 'child'
   const [selectedCategory, setSelectedCategory] = useState(null);
-  
+
   const activeData = ageGroup === 'baby' ? babyData : childData;
 
   const handleBack = () => {
@@ -98,29 +98,29 @@ const SymptomChecker = () => {
   if (!ageGroup) {
     return (
       <div className="page-container animate-enter webapp-container">
-      <SEO 
-        title="Symptom Checker" 
-        description="AI-powered pediatric symptom checker based on IMCI guidelines. Get expert guidance for newborns and children."
-      />
+        <SEO
+          title="Symptom Checker"
+          description="AI-powered pediatric symptom checker based on IMCI guidelines. Get expert guidance for newborns and children."
+        />
         <div className="webapp-header">
           <h1>Pediatric Symptom Checker</h1>
           <p>Select your child's age group to view tailored pediatric guidelines.</p>
         </div>
-        
+
         <div className="age-selection-grid">
           <button className="glass-panel age-card" onClick={() => setAgeGroup('baby')}>
-            <div className="age-icon baby-icon">0-2</div>
+            <div className="age-icon baby-icon">0-2 months</div>
             <h2>Baby Health</h2>
             <p>Guidelines for newborns and infants up to 2 months old.</p>
           </button>
-          
+
           <button className="glass-panel age-card" onClick={() => setAgeGroup('child')}>
-            <div className="age-icon child-icon">2-60</div>
+            <div className="age-icon child-icon">2-60 months</div>
             <h2>Child Health</h2>
             <p>Guidelines for toddlers and children from 2 to 60 months old.</p>
           </button>
         </div>
-        
+
         <div className="medical-disclaimer glass-panel">
           <AlertTriangle size={24} color="#f59e0b" />
           <p><strong>Disclaimer:</strong> This tool provides general medical guidelines and is not a substitute for professional medical advice, diagnosis, or treatment. Always seek the advice of your physician or other qualified health provider with any questions you may have regarding a medical condition.</p>
@@ -145,8 +145,8 @@ const SymptomChecker = () => {
 
         <div className="category-grid">
           {activeData.map((category) => (
-            <button 
-              key={category.id} 
+            <button
+              key={category.id}
               className="glass-panel category-card"
               onClick={() => setSelectedCategory(category)}
             >
