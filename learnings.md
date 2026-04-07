@@ -24,7 +24,12 @@ We transformed an older, likely Wix-based or conceptual site into a premium, cus
 ### 5. Project Structure & Organization
 *   **Learning**: Having multiple data files floating in root directories causes clutter. Data files like JSON should be stored exclusively inside the `src/data/` folder.
 *   **Lesson**: Empty or duplicate repository folders (like `ChildHealthForAll` vs `child-health-forall`) can cause environment confusion and should be strictly managed and cleaned up.
-*   **Performance**: Importing all pages in `App.jsx` statically increases the initial bundle size. A standard improvement for scaling SPA routing is transitioning to `React.lazy()` for route-based code splitting.
+
+### 6. Performance & Vercel Speed Insights
+*   **Challenge**: Real-world user metrics (RES score) were lower than expected (54), particularly for users in South Africa, due to large initial JavaScript bundles and unoptimized asset delivery.
+*   **Solution**: Implemented **React.lazy()** and **Suspense** for route-level code splitting. This ensures the browser only downloads the code for the home page initially, significantly boosting First Contentful Paint (FCP).
+*   **Asset Optimization**: Moved font imports from CSS to prioritized HTML `<link>` tags with `preconnect`. Marked critical hero images with `fetchpriority="high"` to optimize Largest Contentful Paint (LCP).
+*   **Edge Caching**: Configured `vercel.json` to hard-cache static chunks and assets for 1 year at the Edge, ensuring that repeat visits are near-instant and offloading work from the browser.
 
 ## 🔍 SEO Strategy
 *   We implemented `react-helmet-async` to provide unique titles and descriptions for every page.
