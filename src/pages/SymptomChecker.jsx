@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { 
-  ShieldAlert, 
+  HeartPulse,
   AlertTriangle, 
   CheckCircle, 
   Info, 
@@ -9,13 +9,18 @@ import {
   Baby, 
   Activity, 
   Brain, 
-  Wind, 
+  Lungs, 
   Eye, 
-  Utensils, 
-  Zap, 
+  Milk, 
+  Microscope, 
+  Layers, 
   Droplets, 
-  BookOpen, 
-  Sparkle
+  BookOpenCheck, 
+  Syringe,
+  Ear,
+  Scale,
+  Ribbon,
+  Dna
 } from 'lucide-react';
 import SEO from '../components/SEO';
 import babyData from '../data/babyHealth.json';
@@ -36,20 +41,50 @@ import ankyloglossiaImg from '../assets/medical/ankyloglossia.jpg';
 
 import './SymptomChecker.css';
 
+// Mapping for category colors to enhance premium look
+const categoryColorMap = {
+  'emergency': '#ef4444',
+  'breathing': '#3b82f6',
+  'fever': '#f59e0b',
+  'eyes': '#06b6d4',
+  'infection': '#8b5cf6',
+  'growth and feeding': '#ec4899',
+  'nutrition and growth': '#ec4899',
+  'diarrhoea and dehydration': '#0ea5e9',
+  'skin': '#f97316',
+  'stools and urine': '#10b981',
+  'ear': '#6366f1',
+  'hiv': '#dc2626',
+  'immunisation': '#22c55e',
+  'info': '#64748b',
+  'resources': '#14b8a6',
+  'brain': '#a855f7',
+  'birth defects': '#f472b6',
+};
+
 // Mapping for category icons
-const categoryIconMap = {
-  'emergency': <ShieldAlert size={32} />,
-  'birth defects': <Baby size={32} />,
-  'brain': <Brain size={32} />,
-  'breathing': <Wind size={32} />,
-  'eyes': <Eye size={32} />,
-  'fever': <Thermometer size={32} />,
-  'growth and feeding': <Utensils size={32} />,
-  'infection': <Zap size={32} />,
-  'skin': <Sparkle size={32} />,
-  'stools and urine': <Droplets size={32} />,
-  'resources': <BookOpen size={32} />,
-  'info': <Info size={32} />,
+const categoryIconMap = (id) => {
+  const color = categoryColorMap[id] || 'var(--primary)';
+  const icons = {
+    'emergency': <HeartPulse size={32} color={color} />,
+    'breathing': <Lungs size={32} color={color} />,
+    'fever': <Thermometer size={32} color={color} />,
+    'resources': <BookOpenCheck size={32} color={color} />,
+    'info': <Info size={32} color={color} />,
+    'birth defects': <Dna size={32} color={color} />,
+    'brain': <Brain size={32} color={color} />,
+    'eyes': <Eye size={32} color={color} />,
+    'growth and feeding': <Milk size={32} color={color} />,
+    'infection': <Microscope size={32} color={color} />,
+    'skin': <Layers size={32} color={color} />,
+    'stools and urine': <Droplets size={32} color={color} />,
+    'diarrhoea and dehydration': <Droplets size={32} color={color} />,
+    'ear': <Ear size={32} color={color} />,
+    'nutrition and growth': <Scale size={32} color={color} />,
+    'hiv': <Ribbon size={32} color={color} />,
+    'immunisation': <Syringe size={32} color={color} />,
+  };
+  return icons[id] || <Activity size={32} color={color} />;
 };
 
 // Comprehensive mapping for JSON 'type: image' references
@@ -192,7 +227,7 @@ const SymptomChecker = () => {
               onClick={() => setSelectedCategory(category)}
             >
               <div className="category-icon">
-                {categoryIconMap[category.id] || <Activity size={32} />}
+                {categoryIconMap(category.id)}
               </div>
               <h3>{category.name}</h3>
             </button>
