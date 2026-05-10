@@ -12,7 +12,7 @@ const apps = [
   {
     title: "Baby Health 0-2 Months",
     description: "Guidelines developed by a pediatrician to help parents decide when to seek medical help for their newborn.",
-    ios: "https://apps.apple.com/us/app/baby-health-0-2-months/id6450794620",
+    ios: "https://apps.apple.com/za/app/baby-health-0-2-months/id6450794620",
     android: "https://play.google.com/store/apps/details?id=com.babyhealth",
     icon: iconBaby,
     color: "var(--color-orange)",
@@ -21,7 +21,7 @@ const apps = [
   {
     title: "Child Health 2-60 Months",
     description: "Comprehensive medical guidelines for infants and toddlers up to 5 years of age.",
-    ios: "https://apps.apple.com/app/child-health-2-60-months/id6470392895",
+    ios: "https://apps.apple.com/za/app/child-health-2-60-months/id6470392895",
     android: "https://play.google.com/store/apps/details?id=com.childhealth&hl=en_US",
     icon: iconChild,
     color: "var(--color-emergency)",

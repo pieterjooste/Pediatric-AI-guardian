@@ -1,5 +1,22 @@
 import React, { useState } from 'react';
-import { ShieldAlert, AlertTriangle, CheckCircle, Info, ArrowLeft, Thermometer } from 'lucide-react';
+import { 
+  ShieldAlert, 
+  AlertTriangle, 
+  CheckCircle, 
+  Info, 
+  ArrowLeft, 
+  Thermometer, 
+  Baby, 
+  Activity, 
+  Brain, 
+  Wind, 
+  Eye, 
+  Utensils, 
+  Zap, 
+  Droplets, 
+  BookOpen, 
+  Sparkle
+} from 'lucide-react';
 import SEO from '../components/SEO';
 import babyData from '../data/babyHealth.json';
 import childData from '../data/ChildHealth.json';
@@ -18,6 +35,22 @@ import glaucomaImg from '../assets/medical/glaucoma.jpg';
 import ankyloglossiaImg from '../assets/medical/ankyloglossia.jpg';
 
 import './SymptomChecker.css';
+
+// Mapping for category icons
+const categoryIconMap = {
+  'emergency': <ShieldAlert size={32} />,
+  'birth defects': <Baby size={32} />,
+  'brain': <Brain size={32} />,
+  'breathing': <Wind size={32} />,
+  'eyes': <Eye size={32} />,
+  'fever': <Thermometer size={32} />,
+  'growth and feeding': <Utensils size={32} />,
+  'infection': <Zap size={32} />,
+  'skin': <Sparkle size={32} />,
+  'stools and urine': <Droplets size={32} />,
+  'resources': <BookOpen size={32} />,
+  'info': <Info size={32} />,
+};
 
 // Comprehensive mapping for JSON 'type: image' references
 const imageMap = {
@@ -51,15 +84,23 @@ const SymptomChecker = () => {
   };
 
   // Helper to render the specific section content (red, orange, green, etc.)
-  const renderContentItems = (contentItems) => {
+  const renderContentItems = (contentItems, isInfo = false) => {
     return contentItems.map((item, idx) => {
+      const showBullet = !isInfo; // No bullets in Info section
+      
       switch (item.type) {
         case 'titletext':
-          return <h4 key={idx} className="content-title">⊙ {item.content}</h4>;
+          // Titles don't get bullets anymore for cleaner look
+          return <h4 key={idx} className="content-title">{item.content}</h4>;
         case 'text':
         case 'greentext':
         case 'redtext':
-          return <p key={idx} className={`content-text ${item.type}`}>⊙ {item.content}</p>;
+          return (
+            <p key={idx} className={`content-text ${item.type}`}>
+              {showBullet && <span className="bullet">⊙ </span>}
+              {item.content}
+            </p>
+          );
         case 'image':
           const imgSrc = imageMap[item.content];
           if (!imgSrc) return null;
@@ -72,7 +113,7 @@ const SymptomChecker = () => {
         case 'link':
           return (
             <div key={idx} className="link-wrapper">
-              <span className="bullet">⊙</span>
+              {showBullet && <span className="bullet">⊙</span>}
               <a href={item.linkUrl} target="_blank" rel="noreferrer" className="content-link">
                 {item.content}
               </a>
@@ -84,7 +125,7 @@ const SymptomChecker = () => {
             <div key={idx} className="sub-section">
               <h4 className="sub-section-title">{item.content}</h4>
               <div className="sub-section-content">
-                {item.sheet?.sheetContent && renderContentItems(item.sheet.sheetContent)}
+                {item.sheet?.sheetContent && renderContentItems(item.sheet.sheetContent, isInfo)}
               </div>
             </div>
           );
@@ -147,9 +188,12 @@ const SymptomChecker = () => {
           {activeData.map((category) => (
             <button
               key={category.id}
-              className="glass-panel category-card"
+              className={`glass-panel category-card ${category.id === 'info' ? 'info-card' : ''}`}
               onClick={() => setSelectedCategory(category)}
             >
+              <div className="category-icon">
+                {categoryIconMap[category.id] || <Activity size={32} />}
+              </div>
               <h3>{category.name}</h3>
             </button>
           ))}
@@ -177,7 +221,7 @@ const SymptomChecker = () => {
           return (
             <div key={idx} className={`glass-panel guideline-section ${bgClass}`}>
               <div className="section-body">
-                {renderContentItems(section.content)}
+                {renderContentItems(section.content, selectedCategory.id === 'info')}
               </div>
             </div>
           );

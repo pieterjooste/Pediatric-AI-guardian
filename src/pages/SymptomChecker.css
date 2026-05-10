@@ -108,16 +108,56 @@
   padding: 1.5rem;
   cursor: pointer;
   border: 1px solid var(--glass-border);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .category-card:hover {
   background: rgba(59, 130, 246, 0.1);
-  border-color: rgba(59, 130, 246, 0.4);
+  border-color: var(--primary);
+  transform: translateY(-5px);
+  box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+}
+
+.category-icon {
+  width: 60px;
+  height: 60px;
+  border-radius: 16px;
+  background: rgba(255, 255, 255, 0.05);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--primary);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  transition: all 0.3s;
+}
+
+.category-card:hover .category-icon {
+  background: var(--primary);
+  color: white;
+  transform: scale(1.1);
 }
 
 .category-card h3 {
   font-size: 1.1rem;
   margin: 0;
+  color: var(--text-primary);
+}
+
+/* Special styling for Info card */
+.category-card.info-card {
+  border-style: dashed;
+}
+
+.category-card.info-card .category-icon {
+  color: #94a3b8;
+}
+
+.category-card.info-card:hover .category-icon {
+  background: #64748b;
 }
 
 .guideline-section {

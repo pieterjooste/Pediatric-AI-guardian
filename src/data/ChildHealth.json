@@ -3690,35 +3690,6 @@
     "name": "Info",
     "sections": [
       {
-        "id": "intro",
-        "background": "gray",
-        "content": [
-          {
-            "id": 0,
-            "content": "Check the supporting website for the Privacy Policy, contact details and more information.",
-            "type": "titletext"
-          },
-          {
-            "id": 1,
-            "content": "https://childhealthforall.com",
-            "type": "link",
-            "linkUrl": "https://childhealthforall.com"
-          },
-          {
-            "id": 2,
-            "content": "Blog",
-            "type": "link",
-            "linkUrl": "https://childhealthforall.com/post/let-us-start-a-village"
-          },
-          {
-            "id": 3,
-            "content": "Baby Health 0-2 Months",
-            "type": "link",
-            "linkUrl": "https://apps.apple.com/za/app/baby-health-0-2-months/id6450794620"
-          }
-        ]
-      },
-      {
         "id": "red",
         "background": "red",
         "content": [
@@ -3769,7 +3740,7 @@
           },
           {
             "id": 9,
-            "content": "Updated January 2025.",
+            "content": "Updated January 2026.",
             "type": "text"
           }
         ]
