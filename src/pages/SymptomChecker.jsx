@@ -9,7 +9,7 @@ import {
   Baby, 
   Activity, 
   Brain, 
-  Lungs, 
+  Wind, 
   Eye, 
   Milk, 
   Microscope, 
@@ -67,7 +67,7 @@ const categoryIconMap = (id) => {
   const color = categoryColorMap[id] || 'var(--primary)';
   const icons = {
     'emergency': <HeartPulse size={32} color={color} />,
-    'breathing': <Lungs size={32} color={color} />,
+    'breathing': <Wind size={32} color={color} />,
     'fever': <Thermometer size={32} color={color} />,
     'resources': <BookOpenCheck size={32} color={color} />,
     'info': <Info size={32} color={color} />,
