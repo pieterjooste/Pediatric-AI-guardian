@@ -2,7 +2,7 @@ import React from 'react';
 import { HelpCircle, Brain, Activity, ShieldCheck, ExternalLink, Play } from 'lucide-react';
 import SEO from '../components/SEO';
 import './VRMedicine.css';
-import childVRImg from '../assets/child-vr.png';
+import childVRImg from '../assets/child-vr.jpg';
 
 const VRMedicine = () => {
   const applications = [

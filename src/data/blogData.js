@@ -2,7 +2,7 @@ import refluxImg from '../assets/blog-reflux.png';
 import soothingImg from '../assets/blog-soothing.png';
 import colicImg from '../assets/blog-colic.png';
 import constipationImg from '../assets/blog-constipation.png';
-import mediationHeroImg from '../assets/blog-mediation-hero.png';
+import mediationHeroImg from '../assets/blog-mediation-hero.jpg';
 
 export const blogPosts = [
   {

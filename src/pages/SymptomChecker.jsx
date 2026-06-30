@@ -31,7 +31,7 @@ import childData from '../data/ChildHealth.json';
 // Medical Images
 import cataractsImg from '../assets/medical/cataracts.jpg';
 import conjunctivitisImg from '../assets/medical/conjunctivitis.jpg';
-import sunsetEyesImg from '../assets/medical/sunset-eyes.png';
+import sunsetEyesImg from '../assets/medical/sunset-eyes.jpg';
 import stoolsImg from '../assets/medical/stools.jpg';
 import tongueImg from '../assets/medical/tongue.jpg';
 import weightImg from '../assets/medical/weight.jpg';

@@ -29,6 +29,7 @@ We transformed an older, likely Wix-based or conceptual site into a premium, cus
 *   **Challenge**: Real-world user metrics (RES score) were lower than expected (54), particularly for users in South Africa, due to large initial JavaScript bundles and unoptimized asset delivery.
 *   **Solution**: Implemented **React.lazy()** and **Suspense** for route-level code splitting. This ensures the browser only downloads the code for the home page initially, significantly boosting First Contentful Paint (FCP).
 *   **Asset Optimization**: Moved font imports from CSS to prioritized HTML `<link>` tags with `preconnect`. Marked critical hero images with `fetchpriority="high"` to optimize Largest Contentful Paint (LCP).
+*   **Image Compression & Resizing (USA & China Speedup)**: Discovered that several high-resolution PNGs and medical JPEGs totaled ~3.9 MB, severely slowing down page loading on high-latency connections like China and the US. Resized icons to their display sizes (e.g. 1024px flag down to 48px), converted photographic PNGs to JPEGs, and compressed medical images to 75% quality. This saved **3.2 MB (81% reduction)** in total asset weight.
 *   **Edge Caching**: Configured `vercel.json` to hard-cache static chunks and assets for 1 year at the Edge, ensuring that repeat visits are near-instant and offloading work from the browser.
 
 ## 🔍 SEO Strategy
